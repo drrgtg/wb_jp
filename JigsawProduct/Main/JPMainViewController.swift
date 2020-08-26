@@ -89,7 +89,25 @@ class JPMainViewController: JPBaseViewController {
     }
     
     @objc func middleClicked() {
-        
+        // request auth
+        if PHPhotoLibrary.authorizationStatus() == .notDetermined {
+            PHPhotoLibrary.requestAuthorization({ (status) in
+                if status == .authorized {
+                    print("点同意")
+                    self.showImagePickerVC()
+                } else if status == .denied || status == .restricted{
+                    print("点拒绝")
+                }
+            })
+        } else if PHPhotoLibrary.authorizationStatus() == .authorized {
+            showImagePickerVC()
+        } else {
+            print("无权限访问")
+        }
+    }
+    func showImagePickerVC() {
+        let vc = JPImagePickerViewController()
+        navigationController?.pushViewController(vc, animated: true)
     }
     @objc func settingClicked(){
         let vc = JPSettingViewController()

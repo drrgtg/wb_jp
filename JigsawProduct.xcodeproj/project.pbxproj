@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		66BA49D5D1A75A947670F699 /* Pods_JigsawProduct.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BF70B5AB964AF36AF420FC /* Pods_JigsawProduct.framework */; };
 		9D04C3B024F6016200F25D78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04C3AF24F6016200F25D78 /* AppDelegate.swift */; };
-		9D04C3B424F6016200F25D78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04C3B324F6016200F25D78 /* ViewController.swift */; };
 		9D04C3B724F6016200F25D78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D04C3B524F6016200F25D78 /* Main.storyboard */; };
 		9D04C3B924F6019100F25D78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D04C3B824F6019100F25D78 /* Assets.xcassets */; };
 		9D04C3BC24F6019100F25D78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D04C3BA24F6019100F25D78 /* LaunchScreen.storyboard */; };
@@ -25,6 +24,11 @@
 		9D04C3EB24F64A1500F25D78 /* JPCoinListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04C3EA24F64A1500F25D78 /* JPCoinListViewController.swift */; };
 		9D04C3EF24F64A4400F25D78 /* JPCoinListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04C3ED24F64A4400F25D78 /* JPCoinListTableViewCell.swift */; };
 		9D04C3F024F64A4400F25D78 /* JPCoinListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D04C3EE24F64A4400F25D78 /* JPCoinListTableViewCell.xib */; };
+		9D04C3F324F6533200F25D78 /* JPImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04C3F224F6533200F25D78 /* JPImagePickerViewController.swift */; };
+		9D04C3F524F6535700F25D78 /* JPImagePickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04C3F424F6535700F25D78 /* JPImagePickerManager.swift */; };
+		9D04C3F724F6553F00F25D78 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D04C3F624F6553F00F25D78 /* Photos.framework */; };
+		9D04C3FA24F658E500F25D78 /* JPToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04C3F924F658E500F25D78 /* JPToast.swift */; };
+		9D04C3FC24F65AB100F25D78 /* JPImagePickerContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04C3FB24F65AB100F25D78 /* JPImagePickerContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +36,6 @@
 		8A1694F7E795537B98D3CC0C /* Pods-JigsawProduct.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JigsawProduct.debug.xcconfig"; path = "Target Support Files/Pods-JigsawProduct/Pods-JigsawProduct.debug.xcconfig"; sourceTree = "<group>"; };
 		9D04C3AC24F6016100F25D78 /* JigsawProduct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JigsawProduct.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D04C3AF24F6016200F25D78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D04C3B324F6016200F25D78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9D04C3B624F6016200F25D78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D04C3B824F6019100F25D78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D04C3BB24F6019100F25D78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,11 @@
 		9D04C3EA24F64A1500F25D78 /* JPCoinListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPCoinListViewController.swift; sourceTree = "<group>"; };
 		9D04C3ED24F64A4400F25D78 /* JPCoinListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPCoinListTableViewCell.swift; sourceTree = "<group>"; };
 		9D04C3EE24F64A4400F25D78 /* JPCoinListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JPCoinListTableViewCell.xib; sourceTree = "<group>"; };
+		9D04C3F224F6533200F25D78 /* JPImagePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPImagePickerViewController.swift; sourceTree = "<group>"; };
+		9D04C3F424F6535700F25D78 /* JPImagePickerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPImagePickerManager.swift; sourceTree = "<group>"; };
+		9D04C3F624F6553F00F25D78 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		9D04C3F924F658E500F25D78 /* JPToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPToast.swift; sourceTree = "<group>"; };
+		9D04C3FB24F65AB100F25D78 /* JPImagePickerContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPImagePickerContainer.swift; sourceTree = "<group>"; };
 		F8BF70B5AB964AF36AF420FC /* Pods_JigsawProduct.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JigsawProduct.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -60,6 +68,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66BA49D5D1A75A947670F699 /* Pods_JigsawProduct.framework in Frameworks */,
+				9D04C3F724F6553F00F25D78 /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,10 +107,9 @@
 			children = (
 				9D04C3AF24F6016200F25D78 /* AppDelegate.swift */,
 				9D04C3C824F62D8900F25D78 /* Main */,
+				9D04C3F124F651B700F25D78 /* ImagePicker */,
 				9D04C3DB24F63EC100F25D78 /* Setting */,
 				9D04C3E924F649E700F25D78 /* Coin */,
-				9D04C3C324F62D7100F25D78 /* QMUITemplate */,
-				9D04C3B324F6016200F25D78 /* ViewController.swift */,
 				9D04C3D424F6337400F25D78 /* Base */,
 				9D04C3B524F6016200F25D78 /* Main.storyboard */,
 				9D04C3B824F6019100F25D78 /* Assets.xcassets */,
@@ -133,6 +141,8 @@
 		9D04C3D424F6337400F25D78 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				9D04C3F824F658C600F25D78 /* Tool */,
+				9D04C3C324F62D7100F25D78 /* QMUITemplate */,
 				9D04C3D724F633A600F25D78 /* JPBasseNavigationController.swift */,
 				9D04C3D524F6338800F25D78 /* JPBaseViewController.swift */,
 				9D04C3DE24F63F5800F25D78 /* JPBaseTableViewController.swift */,
@@ -177,9 +187,36 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		9D04C3F124F651B700F25D78 /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				9D04C3F224F6533200F25D78 /* JPImagePickerViewController.swift */,
+				9D04C3F424F6535700F25D78 /* JPImagePickerManager.swift */,
+				9D04C3FE24F65ABF00F25D78 /* View */,
+			);
+			path = ImagePicker;
+			sourceTree = "<group>";
+		};
+		9D04C3F824F658C600F25D78 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				9D04C3F924F658E500F25D78 /* JPToast.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		9D04C3FE24F65ABF00F25D78 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9D04C3FB24F65AB100F25D78 /* JPImagePickerContainer.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		C4FA6109D3E93F1CC7918A7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9D04C3F624F6553F00F25D78 /* Photos.framework */,
 				F8BF70B5AB964AF36AF420FC /* Pods_JigsawProduct.framework */,
 			);
 			name = Frameworks;
@@ -306,7 +343,6 @@
 			files = (
 				9D04C3DA24F6397D00F25D78 /* Constant.swift in Sources */,
 				9D04C3D824F633A600F25D78 /* JPBasseNavigationController.swift in Sources */,
-				9D04C3B424F6016200F25D78 /* ViewController.swift in Sources */,
 				9D04C3B024F6016200F25D78 /* AppDelegate.swift in Sources */,
 				9D04C3C724F62D8200F25D78 /* QMUIConfigurationTemplate.m in Sources */,
 				9D04C3E824F640E000F25D78 /* JPSettingTableViewCell.swift in Sources */,
@@ -315,7 +351,11 @@
 				9D04C3D624F6338800F25D78 /* JPBaseViewController.swift in Sources */,
 				9D04C3EB24F64A1500F25D78 /* JPCoinListViewController.swift in Sources */,
 				9D04C3EF24F64A4400F25D78 /* JPCoinListTableViewCell.swift in Sources */,
+				9D04C3FA24F658E500F25D78 /* JPToast.swift in Sources */,
+				9D04C3F524F6535700F25D78 /* JPImagePickerManager.swift in Sources */,
 				9D04C3DD24F63EE100F25D78 /* JPSettingViewController.swift in Sources */,
+				9D04C3FC24F65AB100F25D78 /* JPImagePickerContainer.swift in Sources */,
+				9D04C3F324F6533200F25D78 /* JPImagePickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

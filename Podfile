@@ -8,4 +8,6 @@ target 'JigsawProduct' do
   # Pods for JigsawProduct
 	pod 'SnapKit'
 	pod 'QMUIKit'
+  pod 'SVProgressHUD'
+
 end

@@ -310,20 +310,24 @@ PODS:
     - QMUIKit/QMUILog
   - QMUIKit/QMUIWeakObjectContainer (4.2.0)
   - SnapKit (5.0.1)
+  - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
   - QMUIKit
   - SnapKit
+  - SVProgressHUD
 
 SPEC REPOS:
   trunk:
     - QMUIKit
     - SnapKit
+    - SVProgressHUD
 
 SPEC CHECKSUMS:
   QMUIKit: 464fc9c08c437b02c7d1e9543112ed89d5bd8128
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: a2bd07bf6e7f5979154a5a61b019180b89a6820f
+PODFILE CHECKSUM: 95e512e51615f93b6137de4ca3ceb351cd975fc9
 
 COCOAPODS: 1.10.0.beta.2

@@ -28,10 +28,12 @@ class JPCoinListViewController: JPBaseTableViewController {
         // rightBar
         let rightBtn = QMUIButton(type: .custom)
         rightBtn.setImage(UIImage(named: "icon_gold_small"), for: .normal)
-        rightBtn.spacingBetweenImageAndTitle = 6
-        rightBtn.titleLabel?.text = "109"
         navigationItem.rightBarButtonItem = UIBarButtonItem(customView: rightBtn)
-        
+        rightBtn.setTitle("100", for: .normal)
+        rightBtn.titleLabel?.font = UIFont.boldSystemFont(ofSize: 14)
+        rightBtn.setTitleColor(.white, for: .normal)
+        rightBtn.spacingBetweenImageAndTitle = 6
+        rightBtn.sizeToFit()
         tableView.register(UINib(nibName: "JPCoinListTableViewCell", bundle: .main), forCellReuseIdentifier: JPCoinCellID)
         tableView.separatorStyle = .none
     }
