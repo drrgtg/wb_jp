@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="JPCoinListTableViewCellID" rowHeight="103" id="KGk-i7-Jjw" customClass="JPCoinListTableViewCell" customModule="JigsawProduct" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="385" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="385" height="75"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nhI-ft-WdH">
+                        <rect key="frame" x="21" y="13" width="343" height="49"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="ion_gold_middle" translatesAutoresizingMaskIntoConstraints="NO" id="hCU-Sj-QTs">
+                                <rect key="frame" x="20" y="11.5" width="26" height="26"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X 100" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zAc-X5-PbT">
+                                <rect key="frame" x="66" y="16" width="38" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2kk-ie-20b">
+                                <rect key="frame" x="265" y="10" width="67" height="29"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <inset key="contentEdgeInsets" minX="14" minY="0.0" maxX="14" maxY="0.0"/>
+                                <state key="normal" backgroundImage="icon_btn_buy_BG">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickPayBtn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="yJR-X1-c77"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hCU-Sj-QTs" firstAttribute="leading" secondItem="nhI-ft-WdH" secondAttribute="leading" constant="20" id="KS2-Lb-6mu"/>
+                            <constraint firstItem="2kk-ie-20b" firstAttribute="top" secondItem="nhI-ft-WdH" secondAttribute="top" constant="10" id="bvG-xC-uVt"/>
+                            <constraint firstAttribute="trailing" secondItem="2kk-ie-20b" secondAttribute="trailing" constant="11" id="eZL-YF-vxL"/>
+                            <constraint firstItem="zAc-X5-PbT" firstAttribute="leading" secondItem="hCU-Sj-QTs" secondAttribute="trailing" constant="20" id="fvk-zh-EDr"/>
+                            <constraint firstItem="hCU-Sj-QTs" firstAttribute="centerY" secondItem="nhI-ft-WdH" secondAttribute="centerY" id="hU3-95-LwK"/>
+                            <constraint firstItem="zAc-X5-PbT" firstAttribute="centerY" secondItem="hCU-Sj-QTs" secondAttribute="centerY" id="pRw-sa-ohi"/>
+                            <constraint firstItem="2kk-ie-20b" firstAttribute="centerY" secondItem="zAc-X5-PbT" secondAttribute="centerY" id="t5V-oV-Me8"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="nhI-ft-WdH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="13" id="PjB-ef-vY5"/>
+                    <constraint firstItem="nhI-ft-WdH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="21" id="cGl-II-j2z"/>
+                    <constraint firstAttribute="trailing" secondItem="nhI-ft-WdH" secondAttribute="trailing" constant="21" id="fNQ-4U-gIL"/>
+                    <constraint firstAttribute="bottom" secondItem="nhI-ft-WdH" secondAttribute="bottom" constant="13" id="x0z-Tc-tL1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="circleBGView" destination="nhI-ft-WdH" id="pGc-En-73C"/>
+                <outlet property="coinCountLabel" destination="zAc-X5-PbT" id="8e1-g4-ehc"/>
+                <outlet property="payBtn" destination="2kk-ie-20b" id="dN5-P3-Ty0"/>
+            </connections>
+            <point key="canvasLocation" x="184.78260869565219" y="120.20089285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_btn_buy_BG" width="67" height="27"/>
+        <image name="ion_gold_middle" width="25.5" height="25.5"/>
+    </resources>
+</document>

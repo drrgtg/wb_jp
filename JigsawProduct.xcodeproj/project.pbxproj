@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66BA49D5D1A75A947670F699 /* Pods_JigsawProduct.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BF70B5AB964AF36AF420FC /* Pods_JigsawProduct.framework */; };
+		9D04C3B024F6016200F25D78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04C3AF24F6016200F25D78 /* AppDelegate.swift */; };
+		9D04C3B424F6016200F25D78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04C3B324F6016200F25D78 /* ViewController.swift */; };
+		9D04C3B724F6016200F25D78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D04C3B524F6016200F25D78 /* Main.storyboard */; };
+		9D04C3B924F6019100F25D78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D04C3B824F6019100F25D78 /* Assets.xcassets */; };
+		9D04C3BC24F6019100F25D78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D04C3BA24F6019100F25D78 /* LaunchScreen.storyboard */; };
+		9D04C3C724F62D8200F25D78 /* QMUIConfigurationTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D04C3C524F62D8200F25D78 /* QMUIConfigurationTemplate.m */; };
+		9D04C3CB24F62F8100F25D78 /* JPMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04C3C924F62F8100F25D78 /* JPMainViewController.swift */; };
+		9D04C3D624F6338800F25D78 /* JPBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04C3D524F6338800F25D78 /* JPBaseViewController.swift */; };
+		9D04C3D824F633A600F25D78 /* JPBasseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04C3D724F633A600F25D78 /* JPBasseNavigationController.swift */; };
+		9D04C3DA24F6397D00F25D78 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04C3D924F6397D00F25D78 /* Constant.swift */; };
+		9D04C3DD24F63EE100F25D78 /* JPSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04C3DC24F63EE100F25D78 /* JPSettingViewController.swift */; };
+		9D04C3DF24F63F5800F25D78 /* JPBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04C3DE24F63F5800F25D78 /* JPBaseTableViewController.swift */; };
+		9D04C3E724F640E000F25D78 /* JPSettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D04C3E524F640E000F25D78 /* JPSettingTableViewCell.xib */; };
+		9D04C3E824F640E000F25D78 /* JPSettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04C3E624F640E000F25D78 /* JPSettingTableViewCell.swift */; };
+		9D04C3EB24F64A1500F25D78 /* JPCoinListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04C3EA24F64A1500F25D78 /* JPCoinListViewController.swift */; };
+		9D04C3EF24F64A4400F25D78 /* JPCoinListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04C3ED24F64A4400F25D78 /* JPCoinListTableViewCell.swift */; };
+		9D04C3F024F64A4400F25D78 /* JPCoinListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D04C3EE24F64A4400F25D78 /* JPCoinListTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E526306C35BDB3843B830AC /* Pods-JigsawProduct.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JigsawProduct.release.xcconfig"; path = "Target Support Files/Pods-JigsawProduct/Pods-JigsawProduct.release.xcconfig"; sourceTree = "<group>"; };
+		8A1694F7E795537B98D3CC0C /* Pods-JigsawProduct.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JigsawProduct.debug.xcconfig"; path = "Target Support Files/Pods-JigsawProduct/Pods-JigsawProduct.debug.xcconfig"; sourceTree = "<group>"; };
+		9D04C3AC24F6016100F25D78 /* JigsawProduct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JigsawProduct.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D04C3AF24F6016200F25D78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D04C3B324F6016200F25D78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D04C3B624F6016200F25D78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D04C3B824F6019100F25D78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D04C3BB24F6019100F25D78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D04C3BD24F6019100F25D78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D04C3C424F62D8100F25D78 /* JigsawProduct-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JigsawProduct-Bridging-Header.h"; sourceTree = "<group>"; };
+		9D04C3C524F62D8200F25D78 /* QMUIConfigurationTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplate.m; sourceTree = "<group>"; };
+		9D04C3C624F62D8200F25D78 /* QMUIConfigurationTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplate.h; sourceTree = "<group>"; };
+		9D04C3C924F62F8100F25D78 /* JPMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPMainViewController.swift; sourceTree = "<group>"; };
+		9D04C3D524F6338800F25D78 /* JPBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPBaseViewController.swift; sourceTree = "<group>"; };
+		9D04C3D724F633A600F25D78 /* JPBasseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPBasseNavigationController.swift; sourceTree = "<group>"; };
+		9D04C3D924F6397D00F25D78 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		9D04C3DC24F63EE100F25D78 /* JPSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPSettingViewController.swift; sourceTree = "<group>"; };
+		9D04C3DE24F63F5800F25D78 /* JPBaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPBaseTableViewController.swift; sourceTree = "<group>"; };
+		9D04C3E524F640E000F25D78 /* JPSettingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JPSettingTableViewCell.xib; path = JigsawProduct/Setting/View/JPSettingTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		9D04C3E624F640E000F25D78 /* JPSettingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JPSettingTableViewCell.swift; path = JigsawProduct/Setting/View/JPSettingTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		9D04C3EA24F64A1500F25D78 /* JPCoinListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPCoinListViewController.swift; sourceTree = "<group>"; };
+		9D04C3ED24F64A4400F25D78 /* JPCoinListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPCoinListTableViewCell.swift; sourceTree = "<group>"; };
+		9D04C3EE24F64A4400F25D78 /* JPCoinListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JPCoinListTableViewCell.xib; sourceTree = "<group>"; };
+		F8BF70B5AB964AF36AF420FC /* Pods_JigsawProduct.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JigsawProduct.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D04C3A924F6016100F25D78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BA49D5D1A75A947670F699 /* Pods_JigsawProduct.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		558E50EC923FD2F652224AB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A1694F7E795537B98D3CC0C /* Pods-JigsawProduct.debug.xcconfig */,
+				3E526306C35BDB3843B830AC /* Pods-JigsawProduct.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9D04C3A324F6016100F25D78 = {
+			isa = PBXGroup;
+			children = (
+				9D04C3AE24F6016100F25D78 /* JigsawProduct */,
+				9D04C3AD24F6016100F25D78 /* Products */,
+				558E50EC923FD2F652224AB4 /* Pods */,
+				C4FA6109D3E93F1CC7918A7B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9D04C3AD24F6016100F25D78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D04C3AC24F6016100F25D78 /* JigsawProduct.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D04C3AE24F6016100F25D78 /* JigsawProduct */ = {
+			isa = PBXGroup;
+			children = (
+				9D04C3AF24F6016200F25D78 /* AppDelegate.swift */,
+				9D04C3C824F62D8900F25D78 /* Main */,
+				9D04C3DB24F63EC100F25D78 /* Setting */,
+				9D04C3E924F649E700F25D78 /* Coin */,
+				9D04C3C324F62D7100F25D78 /* QMUITemplate */,
+				9D04C3B324F6016200F25D78 /* ViewController.swift */,
+				9D04C3D424F6337400F25D78 /* Base */,
+				9D04C3B524F6016200F25D78 /* Main.storyboard */,
+				9D04C3B824F6019100F25D78 /* Assets.xcassets */,
+				9D04C3BA24F6019100F25D78 /* LaunchScreen.storyboard */,
+				9D04C3BD24F6019100F25D78 /* Info.plist */,
+				9D04C3D924F6397D00F25D78 /* Constant.swift */,
+				9D04C3C424F62D8100F25D78 /* JigsawProduct-Bridging-Header.h */,
+			);
+			path = JigsawProduct;
+			sourceTree = "<group>";
+		};
+		9D04C3C324F62D7100F25D78 /* QMUITemplate */ = {
+			isa = PBXGroup;
+			children = (
+				9D04C3C624F62D8200F25D78 /* QMUIConfigurationTemplate.h */,
+				9D04C3C524F62D8200F25D78 /* QMUIConfigurationTemplate.m */,
+			);
+			path = QMUITemplate;
+			sourceTree = "<group>";
+		};
+		9D04C3C824F62D8900F25D78 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9D04C3C924F62F8100F25D78 /* JPMainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9D04C3D424F6337400F25D78 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9D04C3D724F633A600F25D78 /* JPBasseNavigationController.swift */,
+				9D04C3D524F6338800F25D78 /* JPBaseViewController.swift */,
+				9D04C3DE24F63F5800F25D78 /* JPBaseTableViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9D04C3DB24F63EC100F25D78 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				9D04C3DC24F63EE100F25D78 /* JPSettingViewController.swift */,
+				9D04C3E024F6409500F25D78 /* View */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		9D04C3E024F6409500F25D78 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9D04C3E624F640E000F25D78 /* JPSettingTableViewCell.swift */,
+				9D04C3E524F640E000F25D78 /* JPSettingTableViewCell.xib */,
+			);
+			name = View;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		9D04C3E924F649E700F25D78 /* Coin */ = {
+			isa = PBXGroup;
+			children = (
+				9D04C3EA24F64A1500F25D78 /* JPCoinListViewController.swift */,
+				9D04C3EC24F64A2200F25D78 /* View */,
+			);
+			path = Coin;
+			sourceTree = "<group>";
+		};
+		9D04C3EC24F64A2200F25D78 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9D04C3ED24F64A4400F25D78 /* JPCoinListTableViewCell.swift */,
+				9D04C3EE24F64A4400F25D78 /* JPCoinListTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4FA6109D3E93F1CC7918A7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8BF70B5AB964AF36AF420FC /* Pods_JigsawProduct.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D04C3AB24F6016100F25D78 /* JigsawProduct */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D04C3C024F6019200F25D78 /* Build configuration list for PBXNativeTarget "JigsawProduct" */;
+			buildPhases = (
+				F941506788CFCD5B940E7430 /* [CP] Check Pods Manifest.lock */,
+				9D04C3A824F6016100F25D78 /* Sources */,
+				9D04C3A924F6016100F25D78 /* Frameworks */,
+				9D04C3AA24F6016100F25D78 /* Resources */,
+				2F2203331CA8058C6EA559C6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JigsawProduct;
+			productName = JigsawProduct;
+			productReference = 9D04C3AC24F6016100F25D78 /* JigsawProduct.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D04C3A424F6016100F25D78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JP;
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = diantu;
+				TargetAttributes = {
+					9D04C3AB24F6016100F25D78 = {
+						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 9D04C3A724F6016100F25D78 /* Build configuration list for PBXProject "JigsawProduct" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D04C3A324F6016100F25D78;
+			productRefGroup = 9D04C3AD24F6016100F25D78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D04C3AB24F6016100F25D78 /* JigsawProduct */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D04C3AA24F6016100F25D78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D04C3F024F64A4400F25D78 /* JPCoinListTableViewCell.xib in Resources */,
+				9D04C3BC24F6019100F25D78 /* LaunchScreen.storyboard in Resources */,
+				9D04C3B924F6019100F25D78 /* Assets.xcassets in Resources */,
+				9D04C3E724F640E000F25D78 /* JPSettingTableViewCell.xib in Resources */,
+				9D04C3B724F6016200F25D78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F2203331CA8058C6EA559C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JigsawProduct/Pods-JigsawProduct-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JigsawProduct/Pods-JigsawProduct-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JigsawProduct/Pods-JigsawProduct-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F941506788CFCD5B940E7430 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JigsawProduct-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D04C3A824F6016100F25D78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D04C3DA24F6397D00F25D78 /* Constant.swift in Sources */,
+				9D04C3D824F633A600F25D78 /* JPBasseNavigationController.swift in Sources */,
+				9D04C3B424F6016200F25D78 /* ViewController.swift in Sources */,
+				9D04C3B024F6016200F25D78 /* AppDelegate.swift in Sources */,
+				9D04C3C724F62D8200F25D78 /* QMUIConfigurationTemplate.m in Sources */,
+				9D04C3E824F640E000F25D78 /* JPSettingTableViewCell.swift in Sources */,
+				9D04C3DF24F63F5800F25D78 /* JPBaseTableViewController.swift in Sources */,
+				9D04C3CB24F62F8100F25D78 /* JPMainViewController.swift in Sources */,
+				9D04C3D624F6338800F25D78 /* JPBaseViewController.swift in Sources */,
+				9D04C3EB24F64A1500F25D78 /* JPCoinListViewController.swift in Sources */,
+				9D04C3EF24F64A4400F25D78 /* JPCoinListTableViewCell.swift in Sources */,
+				9D04C3DD24F63EE100F25D78 /* JPSettingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9D04C3B524F6016200F25D78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D04C3B624F6016200F25D78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D04C3BA24F6019100F25D78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D04C3BB24F6019100F25D78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D04C3BE24F6019200F25D78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D04C3BF24F6019200F25D78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D04C3C124F6019200F25D78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A1694F7E795537B98D3CC0C /* Pods-JigsawProduct.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JigsawProduct/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.diantu.JigsawProduct;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JigsawProduct/JigsawProduct-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9D04C3C224F6019200F25D78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E526306C35BDB3843B830AC /* Pods-JigsawProduct.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JigsawProduct/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.diantu.JigsawProduct;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JigsawProduct/JigsawProduct-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D04C3A724F6016100F25D78 /* Build configuration list for PBXProject "JigsawProduct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D04C3BE24F6019200F25D78 /* Debug */,
+				9D04C3BF24F6019200F25D78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D04C3C024F6019200F25D78 /* Build configuration list for PBXNativeTarget "JigsawProduct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D04C3C124F6019200F25D78 /* Debug */,
+				9D04C3C224F6019200F25D78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D04C3A424F6016100F25D78 /* Project object */;
+}
