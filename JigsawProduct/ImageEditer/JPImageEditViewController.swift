@@ -67,9 +67,7 @@ class JPImageEditViewController: JPBaseViewController {
     func animationMuban(_ number: Int){
         for i in 0..<selImages!.count {
             if let rect = (tempBGView?.templateModel?.rectModel?.rectArray[number][i]) as? NSDictionary {
-                if let centers = rect["center"] as? NSNumber, let sizes = rect["size"] as? NSNumber {
-                    let center = centers.cgPointValue
-                    let size = sizes.cgSizeValue
+                if let center = rect["center"] as? CGPoint, let size = rect["size"] as? CGSize {
                     let fatherWidth = imageContainerView.qmui_width
                     let imageView = imageContainerView.viewWithTag(1000 + i)
                     UIView.animate(withDuration: 0.25) {
