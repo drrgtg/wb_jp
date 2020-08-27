@@ -29,6 +29,11 @@
 		9D04C3F724F6553F00F25D78 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D04C3F624F6553F00F25D78 /* Photos.framework */; };
 		9D04C3FA24F658E500F25D78 /* JPToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04C3F924F658E500F25D78 /* JPToast.swift */; };
 		9D04C3FC24F65AB100F25D78 /* JPImagePickerContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04C3FB24F65AB100F25D78 /* JPImagePickerContainer.swift */; };
+		9DD20E0124F65EF100A358FA /* JPImagePickerItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD20DFF24F65EF100A358FA /* JPImagePickerItemCollectionViewCell.swift */; };
+		9DD20E0224F65EF100A358FA /* JPImagePickerItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DD20E0024F65EF100A358FA /* JPImagePickerItemCollectionViewCell.xib */; };
+		9DD20E0424F6629200A358FA /* JPImagePickerSelectContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD20E0324F6629200A358FA /* JPImagePickerSelectContainer.swift */; };
+		9DD20E0724F662B000A358FA /* JPImagePickerSelectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD20E0524F662B000A358FA /* JPImagePickerSelectCell.swift */; };
+		9DD20E0824F662B000A358FA /* JPImagePickerSelectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DD20E0624F662B000A358FA /* JPImagePickerSelectCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +64,11 @@
 		9D04C3F624F6553F00F25D78 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		9D04C3F924F658E500F25D78 /* JPToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPToast.swift; sourceTree = "<group>"; };
 		9D04C3FB24F65AB100F25D78 /* JPImagePickerContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPImagePickerContainer.swift; sourceTree = "<group>"; };
+		9DD20DFF24F65EF100A358FA /* JPImagePickerItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPImagePickerItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		9DD20E0024F65EF100A358FA /* JPImagePickerItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JPImagePickerItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		9DD20E0324F6629200A358FA /* JPImagePickerSelectContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPImagePickerSelectContainer.swift; sourceTree = "<group>"; };
+		9DD20E0524F662B000A358FA /* JPImagePickerSelectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPImagePickerSelectCell.swift; sourceTree = "<group>"; };
+		9DD20E0624F662B000A358FA /* JPImagePickerSelectCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JPImagePickerSelectCell.xib; sourceTree = "<group>"; };
 		F8BF70B5AB964AF36AF420FC /* Pods_JigsawProduct.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JigsawProduct.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -209,6 +219,11 @@
 			isa = PBXGroup;
 			children = (
 				9D04C3FB24F65AB100F25D78 /* JPImagePickerContainer.swift */,
+				9DD20DFF24F65EF100A358FA /* JPImagePickerItemCollectionViewCell.swift */,
+				9DD20E0024F65EF100A358FA /* JPImagePickerItemCollectionViewCell.xib */,
+				9DD20E0324F6629200A358FA /* JPImagePickerSelectContainer.swift */,
+				9DD20E0524F662B000A358FA /* JPImagePickerSelectCell.swift */,
+				9DD20E0624F662B000A358FA /* JPImagePickerSelectCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -289,6 +304,8 @@
 				9D04C3B924F6019100F25D78 /* Assets.xcassets in Resources */,
 				9D04C3E724F640E000F25D78 /* JPSettingTableViewCell.xib in Resources */,
 				9D04C3B724F6016200F25D78 /* Main.storyboard in Resources */,
+				9DD20E0824F662B000A358FA /* JPImagePickerSelectCell.xib in Resources */,
+				9DD20E0224F65EF100A358FA /* JPImagePickerItemCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +363,7 @@
 				9D04C3B024F6016200F25D78 /* AppDelegate.swift in Sources */,
 				9D04C3C724F62D8200F25D78 /* QMUIConfigurationTemplate.m in Sources */,
 				9D04C3E824F640E000F25D78 /* JPSettingTableViewCell.swift in Sources */,
+				9DD20E0124F65EF100A358FA /* JPImagePickerItemCollectionViewCell.swift in Sources */,
 				9D04C3DF24F63F5800F25D78 /* JPBaseTableViewController.swift in Sources */,
 				9D04C3CB24F62F8100F25D78 /* JPMainViewController.swift in Sources */,
 				9D04C3D624F6338800F25D78 /* JPBaseViewController.swift in Sources */,
@@ -353,7 +371,9 @@
 				9D04C3EF24F64A4400F25D78 /* JPCoinListTableViewCell.swift in Sources */,
 				9D04C3FA24F658E500F25D78 /* JPToast.swift in Sources */,
 				9D04C3F524F6535700F25D78 /* JPImagePickerManager.swift in Sources */,
+				9DD20E0424F6629200A358FA /* JPImagePickerSelectContainer.swift in Sources */,
 				9D04C3DD24F63EE100F25D78 /* JPSettingViewController.swift in Sources */,
+				9DD20E0724F662B000A358FA /* JPImagePickerSelectCell.swift in Sources */,
 				9D04C3FC24F65AB100F25D78 /* JPImagePickerContainer.swift in Sources */,
 				9D04C3F324F6533200F25D78 /* JPImagePickerViewController.swift in Sources */,
 			);

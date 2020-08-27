@@ -94,7 +94,9 @@ class JPMainViewController: JPBaseViewController {
             PHPhotoLibrary.requestAuthorization({ (status) in
                 if status == .authorized {
                     print("点同意")
-                    self.showImagePickerVC()
+                    DispatchQueue.main.async {
+                        self.showImagePickerVC()
+                    }
                 } else if status == .denied || status == .restricted{
                     print("点拒绝")
                 }
