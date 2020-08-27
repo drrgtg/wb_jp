@@ -29,6 +29,11 @@
 		9D04C3F724F6553F00F25D78 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D04C3F624F6553F00F25D78 /* Photos.framework */; };
 		9D04C3FA24F658E500F25D78 /* JPToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04C3F924F658E500F25D78 /* JPToast.swift */; };
 		9D04C3FC24F65AB100F25D78 /* JPImagePickerContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04C3FB24F65AB100F25D78 /* JPImagePickerContainer.swift */; };
+		9D6F851424F7A60900343523 /* FFStyleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6F851324F7A60900343523 /* FFStyleModel.m */; };
+		9DC569DD24F789D90006E607 /* JPTemplateItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC569DC24F789D90006E607 /* JPTemplateItemView.swift */; };
+		9DC569DF24F792820006E607 /* JPTemplateColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC569DE24F792820006E607 /* JPTemplateColorModel.swift */; };
+		9DC569E124F794EC0006E607 /* JPBackgroundItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC569E024F794EC0006E607 /* JPBackgroundItemView.swift */; };
+		9DC569E524F79AB20006E607 /* EnumConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC569E424F79AB20006E607 /* EnumConstant.swift */; };
 		9DD20E0124F65EF100A358FA /* JPImagePickerItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD20DFF24F65EF100A358FA /* JPImagePickerItemCollectionViewCell.swift */; };
 		9DD20E0224F65EF100A358FA /* JPImagePickerItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DD20E0024F65EF100A358FA /* JPImagePickerItemCollectionViewCell.xib */; };
 		9DD20E0424F6629200A358FA /* JPImagePickerSelectContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD20E0324F6629200A358FA /* JPImagePickerSelectContainer.swift */; };
@@ -36,6 +41,8 @@
 		9DD20E0824F662B000A358FA /* JPImagePickerSelectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DD20E0624F662B000A358FA /* JPImagePickerSelectCell.xib */; };
 		9DD20E0C24F75F4100A358FA /* JPImageEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD20E0A24F75F4100A358FA /* JPImageEditViewController.swift */; };
 		9DD20E0D24F75F4100A358FA /* JPImageEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DD20E0B24F75F4100A358FA /* JPImageEditViewController.xib */; };
+		9DD20E1024F7691500A358FA /* JPTemplateABGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD20E0F24F7691500A358FA /* JPTemplateABGView.swift */; };
+		9DD20E1224F782F700A358FA /* JPTemplateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD20E1124F782F700A358FA /* JPTemplateModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +73,12 @@
 		9D04C3F624F6553F00F25D78 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		9D04C3F924F658E500F25D78 /* JPToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPToast.swift; sourceTree = "<group>"; };
 		9D04C3FB24F65AB100F25D78 /* JPImagePickerContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPImagePickerContainer.swift; sourceTree = "<group>"; };
+		9D6F851224F7A60900343523 /* FFStyleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFStyleModel.h; sourceTree = "<group>"; };
+		9D6F851324F7A60900343523 /* FFStyleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFStyleModel.m; sourceTree = "<group>"; };
+		9DC569DC24F789D90006E607 /* JPTemplateItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPTemplateItemView.swift; sourceTree = "<group>"; };
+		9DC569DE24F792820006E607 /* JPTemplateColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPTemplateColorModel.swift; sourceTree = "<group>"; };
+		9DC569E024F794EC0006E607 /* JPBackgroundItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPBackgroundItemView.swift; sourceTree = "<group>"; };
+		9DC569E424F79AB20006E607 /* EnumConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumConstant.swift; sourceTree = "<group>"; };
 		9DD20DFF24F65EF100A358FA /* JPImagePickerItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPImagePickerItemCollectionViewCell.swift; sourceTree = "<group>"; };
 		9DD20E0024F65EF100A358FA /* JPImagePickerItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JPImagePickerItemCollectionViewCell.xib; sourceTree = "<group>"; };
 		9DD20E0324F6629200A358FA /* JPImagePickerSelectContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPImagePickerSelectContainer.swift; sourceTree = "<group>"; };
@@ -73,6 +86,8 @@
 		9DD20E0624F662B000A358FA /* JPImagePickerSelectCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JPImagePickerSelectCell.xib; sourceTree = "<group>"; };
 		9DD20E0A24F75F4100A358FA /* JPImageEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPImageEditViewController.swift; sourceTree = "<group>"; };
 		9DD20E0B24F75F4100A358FA /* JPImageEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JPImageEditViewController.xib; sourceTree = "<group>"; };
+		9DD20E0F24F7691500A358FA /* JPTemplateABGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPTemplateABGView.swift; sourceTree = "<group>"; };
+		9DD20E1124F782F700A358FA /* JPTemplateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPTemplateModel.swift; sourceTree = "<group>"; };
 		F8BF70B5AB964AF36AF420FC /* Pods_JigsawProduct.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JigsawProduct.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -131,6 +146,7 @@
 				9D04C3BA24F6019100F25D78 /* LaunchScreen.storyboard */,
 				9D04C3BD24F6019100F25D78 /* Info.plist */,
 				9D04C3D924F6397D00F25D78 /* Constant.swift */,
+				9DC569E424F79AB20006E607 /* EnumConstant.swift */,
 				9D04C3C424F62D8100F25D78 /* JigsawProduct-Bridging-Header.h */,
 			);
 			path = JigsawProduct;
@@ -238,6 +254,7 @@
 			children = (
 				9DD20E0A24F75F4100A358FA /* JPImageEditViewController.swift */,
 				9DD20E0B24F75F4100A358FA /* JPImageEditViewController.xib */,
+				9DD20E1324F782FA00A358FA /* Model */,
 				9DD20E0E24F7680E00A358FA /* View */,
 			);
 			path = ImageEditer;
@@ -246,8 +263,22 @@
 		9DD20E0E24F7680E00A358FA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9DD20E0F24F7691500A358FA /* JPTemplateABGView.swift */,
+				9DC569DC24F789D90006E607 /* JPTemplateItemView.swift */,
+				9DC569E024F794EC0006E607 /* JPBackgroundItemView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		9DD20E1324F782FA00A358FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D6F851224F7A60900343523 /* FFStyleModel.h */,
+				9D6F851324F7A60900343523 /* FFStyleModel.m */,
+				9DD20E1124F782F700A358FA /* JPTemplateModel.swift */,
+				9DC569DE24F792820006E607 /* JPTemplateColorModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		C4FA6109D3E93F1CC7918A7B /* Frameworks */ = {
@@ -382,6 +413,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D04C3DA24F6397D00F25D78 /* Constant.swift in Sources */,
+				9DC569DD24F789D90006E607 /* JPTemplateItemView.swift in Sources */,
 				9D04C3D824F633A600F25D78 /* JPBasseNavigationController.swift in Sources */,
 				9D04C3B024F6016200F25D78 /* AppDelegate.swift in Sources */,
 				9D04C3C724F62D8200F25D78 /* QMUIConfigurationTemplate.m in Sources */,
@@ -390,14 +422,20 @@
 				9D04C3DF24F63F5800F25D78 /* JPBaseTableViewController.swift in Sources */,
 				9D04C3CB24F62F8100F25D78 /* JPMainViewController.swift in Sources */,
 				9D04C3D624F6338800F25D78 /* JPBaseViewController.swift in Sources */,
+				9DD20E1224F782F700A358FA /* JPTemplateModel.swift in Sources */,
+				9D6F851424F7A60900343523 /* FFStyleModel.m in Sources */,
 				9D04C3EB24F64A1500F25D78 /* JPCoinListViewController.swift in Sources */,
 				9D04C3EF24F64A4400F25D78 /* JPCoinListTableViewCell.swift in Sources */,
 				9D04C3FA24F658E500F25D78 /* JPToast.swift in Sources */,
 				9D04C3F524F6535700F25D78 /* JPImagePickerManager.swift in Sources */,
 				9DD20E0424F6629200A358FA /* JPImagePickerSelectContainer.swift in Sources */,
 				9D04C3DD24F63EE100F25D78 /* JPSettingViewController.swift in Sources */,
+				9DC569E124F794EC0006E607 /* JPBackgroundItemView.swift in Sources */,
+				9DC569E524F79AB20006E607 /* EnumConstant.swift in Sources */,
 				9DD20E0724F662B000A358FA /* JPImagePickerSelectCell.swift in Sources */,
 				9D04C3FC24F65AB100F25D78 /* JPImagePickerContainer.swift in Sources */,
+				9DD20E1024F7691500A358FA /* JPTemplateABGView.swift in Sources */,
+				9DC569DF24F792820006E607 /* JPTemplateColorModel.swift in Sources */,
 				9DD20E0C24F75F4100A358FA /* JPImageEditViewController.swift in Sources */,
 				9D04C3F324F6533200F25D78 /* JPImagePickerViewController.swift in Sources */,
 			);

@@ -4,3 +4,4 @@
 
 #import <QMUIKit.h>
 #import <SVProgressHUD.h>
+#import "FFStyleModel.h"

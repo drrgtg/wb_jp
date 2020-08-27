@@ -29,11 +29,11 @@
                     <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SkY-At-Ud4">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="449"/>
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="476"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0vR-vI-cDb">
-                                    <rect key="frame" x="4" y="21.333333333333343" width="406" height="406"/>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <rect key="frame" x="4" y="35" width="406" height="406"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
                                         <constraint firstAttribute="width" secondItem="0vR-vI-cDb" secondAttribute="height" id="Pxn-iZ-sa0"/>
                                     </constraints>
@@ -48,14 +48,14 @@
                             </constraints>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lLy-sP-wrI">
-                            <rect key="frame" x="0.0" y="449" width="414" height="287"/>
+                            <rect key="frame" x="0.0" y="476" width="414" height="260"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="js5-fH-giz">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="207"/>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="180"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </view>
                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="xcm-c6-1cM">
-                                    <rect key="frame" x="0.0" y="207" width="414" height="80"/>
+                                    <rect key="frame" x="0.0" y="180" width="414" height="80"/>
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kHh-qf-08N">
                                             <rect key="frame" x="0.0" y="0.0" width="82.666666666666671" height="80"/>
@@ -103,15 +103,15 @@
                                     </constraints>
                                 </stackView>
                             </subviews>
-                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="backgroundColor" red="0.12156862745098039" green="0.12156862745098039" blue="0.12156862745098039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstItem="js5-fH-giz" firstAttribute="top" secondItem="lLy-sP-wrI" secondAttribute="top" id="3DM-TO-vlU"/>
                                 <constraint firstItem="xcm-c6-1cM" firstAttribute="top" secondItem="js5-fH-giz" secondAttribute="bottom" id="AmS-ow-16T"/>
+                                <constraint firstAttribute="height" constant="260" id="FhP-zC-LWt"/>
                                 <constraint firstItem="js5-fH-giz" firstAttribute="leading" secondItem="lLy-sP-wrI" secondAttribute="leading" id="KQy-1w-H0y"/>
                                 <constraint firstAttribute="bottom" secondItem="xcm-c6-1cM" secondAttribute="bottom" id="Lpt-YL-ld9"/>
                                 <constraint firstItem="xcm-c6-1cM" firstAttribute="leading" secondItem="lLy-sP-wrI" secondAttribute="leading" id="T1D-8e-3Kn"/>
                                 <constraint firstAttribute="trailing" secondItem="js5-fH-giz" secondAttribute="trailing" id="jPi-JC-XGX"/>
-                                <constraint firstAttribute="width" secondItem="lLy-sP-wrI" secondAttribute="height" multiplier="375:260" id="sbO-bn-CxN"/>
                                 <constraint firstAttribute="trailing" secondItem="xcm-c6-1cM" secondAttribute="trailing" id="tHk-DV-mkM"/>
                             </constraints>
                         </view>
