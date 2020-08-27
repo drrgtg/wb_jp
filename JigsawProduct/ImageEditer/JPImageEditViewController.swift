@@ -49,7 +49,7 @@ class JPImageEditViewController: JPBaseViewController {
         let tempBGV = JPTemplateABGView(frame: CGRect(x: 0, y: 0, width: view.qmui_width, height: 180))
         workTabBGView.addSubview(tempBGV)
         tempBGView = tempBGV
-        
+//        let marginBGV = JPChangeMarginBGView()
     }
     func addImageViews(){
         for i in 0..<selImages!.count {
