@@ -44,6 +44,41 @@ class JPImagePickerViewController: JPBaseViewController {
             cell.isSelected = false
             cell.itemSelectImage.isHidden = true
         }
+        selImageContainer?.nextClickBlock = {[weak self] in
+            //
+            self?.clickNext()
+        }
+    }
+    func clickNext(){
+
+        if imageContainer?.selectPhotosArr.count == 0 {
+            showToast("Please select at least one photo")
+        } else {
+            guard let selPhotos = imageContainer?.selectPhotosArr else {
+                return
+            }
+            let queue = DispatchQueue(label: "downloadQueue")
+            let group = DispatchGroup()
+            var imageArr = [UIImage]()
+            for item in selPhotos {
+                group.enter()
+                let options = PHImageRequestOptions()
+                options.resizeMode = .none;
+                options.deliveryMode = .highQualityFormat
+                PHImageManager.default().requestImage(for: item, targetSize: PHImageManagerMaximumSize, contentMode: .aspectFill, options: options) { (image, info) in
+                    if let dImage = image  {
+                        imageArr.append(dImage)
+                    }
+                    group.leave()
+                }
+            }
+            group.notify(queue: queue) {
+                print("download finished")
+                print(imageArr)
+                let vc = JPImageEditViewController()
+                self.navigationController?.pushViewController(vc, animated: true)
+            }
+        }
     }
     override func initSubviews() {
         super.initSubviews()

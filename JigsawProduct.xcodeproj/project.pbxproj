@@ -34,6 +34,8 @@
 		9DD20E0424F6629200A358FA /* JPImagePickerSelectContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD20E0324F6629200A358FA /* JPImagePickerSelectContainer.swift */; };
 		9DD20E0724F662B000A358FA /* JPImagePickerSelectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD20E0524F662B000A358FA /* JPImagePickerSelectCell.swift */; };
 		9DD20E0824F662B000A358FA /* JPImagePickerSelectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DD20E0624F662B000A358FA /* JPImagePickerSelectCell.xib */; };
+		9DD20E0C24F75F4100A358FA /* JPImageEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD20E0A24F75F4100A358FA /* JPImageEditViewController.swift */; };
+		9DD20E0D24F75F4100A358FA /* JPImageEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DD20E0B24F75F4100A358FA /* JPImageEditViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +71,8 @@
 		9DD20E0324F6629200A358FA /* JPImagePickerSelectContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPImagePickerSelectContainer.swift; sourceTree = "<group>"; };
 		9DD20E0524F662B000A358FA /* JPImagePickerSelectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPImagePickerSelectCell.swift; sourceTree = "<group>"; };
 		9DD20E0624F662B000A358FA /* JPImagePickerSelectCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JPImagePickerSelectCell.xib; sourceTree = "<group>"; };
+		9DD20E0A24F75F4100A358FA /* JPImageEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPImageEditViewController.swift; sourceTree = "<group>"; };
+		9DD20E0B24F75F4100A358FA /* JPImageEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JPImageEditViewController.xib; sourceTree = "<group>"; };
 		F8BF70B5AB964AF36AF420FC /* Pods_JigsawProduct.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JigsawProduct.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -118,6 +122,7 @@
 				9D04C3AF24F6016200F25D78 /* AppDelegate.swift */,
 				9D04C3C824F62D8900F25D78 /* Main */,
 				9D04C3F124F651B700F25D78 /* ImagePicker */,
+				9DD20E0924F75EFC00A358FA /* ImageEditer */,
 				9D04C3DB24F63EC100F25D78 /* Setting */,
 				9D04C3E924F649E700F25D78 /* Coin */,
 				9D04C3D424F6337400F25D78 /* Base */,
@@ -228,6 +233,23 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		9DD20E0924F75EFC00A358FA /* ImageEditer */ = {
+			isa = PBXGroup;
+			children = (
+				9DD20E0A24F75F4100A358FA /* JPImageEditViewController.swift */,
+				9DD20E0B24F75F4100A358FA /* JPImageEditViewController.xib */,
+				9DD20E0E24F7680E00A358FA /* View */,
+			);
+			path = ImageEditer;
+			sourceTree = "<group>";
+		};
+		9DD20E0E24F7680E00A358FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		C4FA6109D3E93F1CC7918A7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -299,6 +321,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DD20E0D24F75F4100A358FA /* JPImageEditViewController.xib in Resources */,
 				9D04C3F024F64A4400F25D78 /* JPCoinListTableViewCell.xib in Resources */,
 				9D04C3BC24F6019100F25D78 /* LaunchScreen.storyboard in Resources */,
 				9D04C3B924F6019100F25D78 /* Assets.xcassets in Resources */,
@@ -375,6 +398,7 @@
 				9D04C3DD24F63EE100F25D78 /* JPSettingViewController.swift in Sources */,
 				9DD20E0724F662B000A358FA /* JPImagePickerSelectCell.swift in Sources */,
 				9D04C3FC24F65AB100F25D78 /* JPImagePickerContainer.swift in Sources */,
+				9DD20E0C24F75F4100A358FA /* JPImageEditViewController.swift in Sources */,
 				9D04C3F324F6533200F25D78 /* JPImagePickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

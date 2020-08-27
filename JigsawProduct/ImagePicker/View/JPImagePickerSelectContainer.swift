@@ -13,6 +13,7 @@ class JPImagePickerSelectContainer: UIView {
     private let JPImagePickerSelectCellID = "JPImagePickerSelectCellID"
     private var selDataSource: [PHAsset]?
     var delChangeBlock: ((PHAsset) -> (Void))?
+    var nextClickBlock: (() -> (Void))?
 
     lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
@@ -51,7 +52,7 @@ class JPImagePickerSelectContainer: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     @objc func clickNext() {
-        
+        nextClickBlock?()
     }
     
         
