@@ -17,6 +17,7 @@ class JPImagePickerSelectCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        bgImageView.layer.cornerRadius = 2
     }
 
     @IBAction func clickDelete(_ sender: Any) {

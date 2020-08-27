@@ -34,14 +34,12 @@ class JPImagePickerViewController: JPBaseViewController {
             sself.selImageContainer?.fillData(selPhonotsArr)
         }
         selImageContainer?.delChangeBlock = {[weak self] (selData) in
-            guard let sself = self, let delIndex = sself.imageManager?.photosArray.index(of: selData) else {
+            guard let sself = self, let delIndex = sself.imageContainer?.selectPhotosArr.firstIndex(of: selData), let selCellIndex = sself.imageManager?.photosArray.index(of: selData) else {
                 return
             }
             
-            let item = IndexPath(item: delIndex, section: 0)
-            sself.imageContainer?.selectPhotosArr.removeAll(where: { (obj) -> Bool in
-                obj == selData
-            })
+            sself.imageContainer?.selectPhotosArr.remove(at: delIndex)
+            let item = IndexPath(item: selCellIndex, section: 0)
             let cell = sself.imageContainer?.collectionView.cellForItem(at: item) as! JPImagePickerItemCollectionViewCell
             cell.isSelected = false
             cell.itemSelectImage.isHidden = true

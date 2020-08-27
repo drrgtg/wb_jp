@@ -13,7 +13,7 @@ class JPImagePickerContainer: UIView {
     private let JPImagePickerItemCollectionViewCellID   = "JPImagePickerItemCollectionViewCellID"
     var selectPhotosArr = [PHAsset]()
     var selChangeBlock: (() -> (Void))?
-    
+    var maxCount = 6
     lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         layout.minimumLineSpacing = 6
@@ -60,18 +60,22 @@ extension JPImagePickerContainer: UICollectionViewDelegate, UICollectionViewData
         return  cell
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let cell = collectionView.cellForItem(at: indexPath) as! JPImagePickerItemCollectionViewCell
-        cell.isSelected = cell.isSelected
-        cell.itemSelectImage.isHidden = !cell.isSelected
-        let selItem = photosArray[indexPath.row]
-        if cell.isSelected {
-            selectPhotosArr.append(selItem)
-        } else {
-            selectPhotosArr.removeAll { (item) -> Bool in
-                item == selItem
+        collectionView.deselectItem(at: indexPath, animated: true)
+        if selectPhotosArr.count < 7 {
+            let cell = collectionView.cellForItem(at: indexPath) as! JPImagePickerItemCollectionViewCell
+            cell.itemSelectImage.isHidden = !cell.itemSelectImage.isHidden
+            let selItem = photosArray[indexPath.row]
+            if !cell.itemSelectImage.isHidden {
+                selectPhotosArr.append(selItem)
+            } else {
+                selectPhotosArr.removeAll { (item) -> Bool in
+                    item == selItem
+                }
             }
+            selChangeBlock?()
+        } else {
+            showToast("max number is 6")
         }
-        selChangeBlock?()
     }
     
 }
