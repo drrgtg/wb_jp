@@ -30,6 +30,7 @@ class JPImageEditViewController: JPBaseViewController {
     // sticker
     var stickerBGView: JPStickerPictureView?
     var selectSticker: StickerView?
+    var simage: UIImage?
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -238,11 +239,17 @@ class JPImageEditViewController: JPBaseViewController {
         alert.showWith(animated: true)
     }
     func payAndSave() {
+        simage = saveImage()
+        if let saveImage = simage {
+            UIImageWriteToSavedPhotosAlbum(saveImage, self, #selector(saveFinished), nil)
+        }
+    }
+    @objc func saveFinished() {
         let vc = JPSaveViewController()
-        let image = saveImage()
-        vc.image = image
+        vc.image = simage
         navigationController?.pushViewController(vc, animated: true)
     }
+        
     func saveImage() -> UIImage? {
         UIGraphicsBeginImageContextWithOptions(imageContainerView.frame.size,true, 0.0);
         guard let context = UIGraphicsGetCurrentContext() else {

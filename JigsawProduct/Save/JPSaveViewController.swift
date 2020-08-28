@@ -31,5 +31,4 @@ class JPSaveViewController: JPBaseViewController {
         bgImageView.image = image
         contentImageView.image = image
     }
-    
 }
