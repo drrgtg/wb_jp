@@ -23,6 +23,8 @@ class JPImageEditViewController: JPBaseViewController {
     var tempBGView: JPTemplateABGView?
     // margin
     var marginBGView: JPChangeMarginBGView?
+    // Font
+    var fontBGView: JPFontBGView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,19 +40,27 @@ class JPImageEditViewController: JPBaseViewController {
     }
     override func initSubviews() {
         super.initSubviews()
+        let frame = CGRect(x: 0, y: 0, width: view.qmui_width, height: 180)
         imageContainerView.layer.masksToBounds = true
         let backColor = workTabBGView.superview?.backgroundColor
-        let tempBGV = JPTemplateABGView(frame: CGRect(x: 0, y: 0, width: view.qmui_width, height: 180))
+        let tempBGV = JPTemplateABGView(frame: frame)
         workTabBGView.addSubview(tempBGV)
         tempBGV.isHidden = true
         tempBGV.backgroundColor = backColor
 
         tempBGView = tempBGV
-        let marginBGV = JPChangeMarginBGView(frame:  CGRect(x: 0, y: 0, width: view.qmui_width, height: 180))
+        let marginBGV = JPChangeMarginBGView(frame:  frame)
         workTabBGView.addSubview(marginBGV)
         marginBGV.backgroundColor = backColor
         marginBGV.isHidden = true
         marginBGView = marginBGV
+        // Font
+        let fontBGV = JPFontBGView(frame: frame)
+        workTabBGView.addSubview(fontBGV)
+        fontBGV.backgroundColor = backColor
+        fontBGV.isHidden = true
+        fontBGView = fontBGV
+        
     }
     func addImageViews(){
         for i in 0..<selImages!.count {
@@ -138,8 +148,8 @@ class JPImageEditViewController: JPBaseViewController {
     }
     @IBAction func clickBtn3(_ sender: Any) {
         btn3.isSelected = !btn3.isSelected
-        tempBGView?.isHidden = false
-        if let tv = tempBGView {
+        fontBGView?.isHidden = false
+        if let tv = fontBGView {
             workTabBGView.bringSubviewToFront(tv)
         }
         btn1.isSelected = false
