@@ -38,6 +38,7 @@ class JPImageEditViewController: JPBaseViewController {
     }
     override func initSubviews() {
         super.initSubviews()
+        imageContainerView.layer.masksToBounds = true
         let backColor = workTabBGView.superview?.backgroundColor
         let tempBGV = JPTemplateABGView(frame: CGRect(x: 0, y: 0, width: view.qmui_width, height: 180))
         workTabBGView.addSubview(tempBGV)
@@ -50,6 +51,19 @@ class JPImageEditViewController: JPBaseViewController {
         marginBGV.backgroundColor = backColor
         marginBGV.isHidden = true
         marginBGView = marginBGV
+    }
+    func addImageViews(){
+        for i in 0..<selImages!.count {
+            let imageV = UIImageView()
+            imageV.tag = 1000 + i
+            imageV.contentMode = .scaleAspectFill
+            imageV.clipsToBounds = true
+            imageV.contentScaleFactor = UIScreen.main.scale
+            imageV.autoresizingMask = .flexibleHeight
+            imageV.image = selImages?[i]
+            imageContainerView.addSubview(imageV)
+        }
+        animationMuban(0)
     }
     func tempModeChanged() {
         tempBGView?.clickTempMode = {[weak self] (modeNum) in
@@ -66,25 +80,26 @@ class JPImageEditViewController: JPBaseViewController {
         }
     }
     func marginModeChaned() {
-        marginBGView?.slideFilletBlock = {(value) in
-            print(value)
+        marginBGView?.slideFilletBlock = {[weak self] (value) in
+            self?.radiosImageViews(value)
         }
-        marginBGView?.slideMarginBlock = {(value) in
+        marginBGView?.slideMarginBlock = {[weak self] (value) in
             print(value)
+            self?.animationMargin(value)
         }
     }
-    func addImageViews(){
+    func radiosImageViews(_ precent: Float) {
         for i in 0..<selImages!.count {
-            let imageV = UIImageView()
-            imageV.tag = 1000 + i
-            imageV.contentMode = .scaleAspectFill
-            imageV.clipsToBounds = true
-            imageV.contentScaleFactor = UIScreen.main.scale
-            imageV.autoresizingMask = .flexibleHeight
-            imageV.image = selImages?[i]
-            imageContainerView.addSubview(imageV)
+            if let imageView = imageContainerView.viewWithTag(1000 + i) {
+                imageView.layer.cornerRadius = imageView.qmui_width / 2 * CGFloat(precent)
+            }
         }
-        animationMuban(0)
+    }
+    func animationMargin(_ precent: Float) {
+        for i in 0..<selImages!.count {
+            let imageView = imageContainerView.viewWithTag(1000 + i)
+            imageView?.transform = CGAffineTransform(scaleX: CGFloat(0.5 * precent) + 1, y: CGFloat(0.5 * precent) + 1)
+        }
     }
     func animationMuban(_ number: Int){
         for i in 0..<selImages!.count {
@@ -99,7 +114,6 @@ class JPImageEditViewController: JPBaseViewController {
                     }
                 }
             }
-            
         }
     }
     @IBAction func clickBtn1(_ sender: Any) {

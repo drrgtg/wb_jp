@@ -88,11 +88,11 @@ class JPChangeMarginBGView: UIView {
         sliderMargin = slider2
     }
     @objc func slider1ValueChanged(_ slider: QMUISlider) {
-        slideFilletBlock?(slider.value)
+        slideMarginBlock?(slider.value)
         label1?.text = "\(Int(slider.value * 100))%"
     }
     @objc func slider2ValueChanged(_ slider: QMUISlider) {
-        slideMarginBlock?(slider.value)
+        slideFilletBlock?(slider.value)
         label2?.text = "\(Int(slider.value * 100))%"
     }
 }
