@@ -5,3 +5,5 @@
 #import <QMUIKit.h>
 #import <SVProgressHUD.h>
 #import "FFStyleModel.h"
+#import "StickerView.h"
+

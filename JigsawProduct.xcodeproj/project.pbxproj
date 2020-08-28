@@ -45,6 +45,11 @@
 		9DD20E1024F7691500A358FA /* JPTemplateABGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD20E0F24F7691500A358FA /* JPTemplateABGView.swift */; };
 		9DD20E1224F782F700A358FA /* JPTemplateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD20E1124F782F700A358FA /* JPTemplateModel.swift */; };
 		9DD5026B24F8B8240009F046 /* JPFontBGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD5026A24F8B8240009F046 /* JPFontBGView.swift */; };
+		9DD5027424F8DA9C0009F046 /* StickerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9DD5026F24F8DA9C0009F046 /* StickerView.bundle */; };
+		9DD5027524F8DA9C0009F046 /* SingleHandGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD5027224F8DA9C0009F046 /* SingleHandGestureRecognizer.m */; };
+		9DD5027624F8DA9C0009F046 /* StickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD5027324F8DA9C0009F046 /* StickerView.m */; };
+		9DD5027824F8DC660009F046 /* JPStickerFontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD5027724F8DC660009F046 /* JPStickerFontView.swift */; };
+		9DD5027A24F8ED850009F046 /* JPStickerPictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD5027924F8ED850009F046 /* JPStickerPictureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +97,13 @@
 		9DD20E0F24F7691500A358FA /* JPTemplateABGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPTemplateABGView.swift; sourceTree = "<group>"; };
 		9DD20E1124F782F700A358FA /* JPTemplateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPTemplateModel.swift; sourceTree = "<group>"; };
 		9DD5026A24F8B8240009F046 /* JPFontBGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPFontBGView.swift; sourceTree = "<group>"; };
+		9DD5026F24F8DA9C0009F046 /* StickerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = StickerView.bundle; sourceTree = "<group>"; };
+		9DD5027024F8DA9C0009F046 /* StickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickerView.h; sourceTree = "<group>"; };
+		9DD5027124F8DA9C0009F046 /* SingleHandGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleHandGestureRecognizer.h; sourceTree = "<group>"; };
+		9DD5027224F8DA9C0009F046 /* SingleHandGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleHandGestureRecognizer.m; sourceTree = "<group>"; };
+		9DD5027324F8DA9C0009F046 /* StickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickerView.m; sourceTree = "<group>"; };
+		9DD5027724F8DC660009F046 /* JPStickerFontView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPStickerFontView.swift; sourceTree = "<group>"; };
+		9DD5027924F8ED850009F046 /* JPStickerPictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPStickerPictureView.swift; sourceTree = "<group>"; };
 		F8BF70B5AB964AF36AF420FC /* Pods_JigsawProduct.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JigsawProduct.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -145,6 +157,7 @@
 				9D04C3DB24F63EC100F25D78 /* Setting */,
 				9D04C3E924F649E700F25D78 /* Coin */,
 				9D04C3D424F6337400F25D78 /* Base */,
+				9DD5026E24F8DA9C0009F046 /* StickerView-Framework */,
 				9D04C3B524F6016200F25D78 /* Main.storyboard */,
 				9D04C3B824F6019100F25D78 /* Assets.xcassets */,
 				9D04C3BA24F6019100F25D78 /* LaunchScreen.storyboard */,
@@ -272,6 +285,8 @@
 				9DC569E024F794EC0006E607 /* JPBackgroundItemView.swift */,
 				9D4B67F724F7C1F60025A933 /* JPChangeMarginBGView.swift */,
 				9DD5026A24F8B8240009F046 /* JPFontBGView.swift */,
+				9DD5027724F8DC660009F046 /* JPStickerFontView.swift */,
+				9DD5027924F8ED850009F046 /* JPStickerPictureView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -285,6 +300,18 @@
 				9DC569DE24F792820006E607 /* JPTemplateColorModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		9DD5026E24F8DA9C0009F046 /* StickerView-Framework */ = {
+			isa = PBXGroup;
+			children = (
+				9DD5026F24F8DA9C0009F046 /* StickerView.bundle */,
+				9DD5027024F8DA9C0009F046 /* StickerView.h */,
+				9DD5027324F8DA9C0009F046 /* StickerView.m */,
+				9DD5027124F8DA9C0009F046 /* SingleHandGestureRecognizer.h */,
+				9DD5027224F8DA9C0009F046 /* SingleHandGestureRecognizer.m */,
+			);
+			path = "StickerView-Framework";
 			sourceTree = "<group>";
 		};
 		C4FA6109D3E93F1CC7918A7B /* Frameworks */ = {
@@ -359,6 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DD20E0D24F75F4100A358FA /* JPImageEditViewController.xib in Resources */,
+				9DD5027424F8DA9C0009F046 /* StickerView.bundle in Resources */,
 				9D04C3F024F64A4400F25D78 /* JPCoinListTableViewCell.xib in Resources */,
 				9D04C3BC24F6019100F25D78 /* LaunchScreen.storyboard in Resources */,
 				9D04C3B924F6019100F25D78 /* Assets.xcassets in Resources */,
@@ -423,7 +451,9 @@
 				9D04C3D824F633A600F25D78 /* JPBasseNavigationController.swift in Sources */,
 				9D04C3B024F6016200F25D78 /* AppDelegate.swift in Sources */,
 				9D04C3C724F62D8200F25D78 /* QMUIConfigurationTemplate.m in Sources */,
+				9DD5027824F8DC660009F046 /* JPStickerFontView.swift in Sources */,
 				9D04C3E824F640E000F25D78 /* JPSettingTableViewCell.swift in Sources */,
+				9DD5027524F8DA9C0009F046 /* SingleHandGestureRecognizer.m in Sources */,
 				9DD5026B24F8B8240009F046 /* JPFontBGView.swift in Sources */,
 				9DD20E0124F65EF100A358FA /* JPImagePickerItemCollectionViewCell.swift in Sources */,
 				9D04C3DF24F63F5800F25D78 /* JPBaseTableViewController.swift in Sources */,
@@ -443,8 +473,10 @@
 				9D04C3FC24F65AB100F25D78 /* JPImagePickerContainer.swift in Sources */,
 				9DD20E1024F7691500A358FA /* JPTemplateABGView.swift in Sources */,
 				9DC569DF24F792820006E607 /* JPTemplateColorModel.swift in Sources */,
+				9DD5027A24F8ED850009F046 /* JPStickerPictureView.swift in Sources */,
 				9DD20E0C24F75F4100A358FA /* JPImageEditViewController.swift in Sources */,
 				9D04C3F324F6533200F25D78 /* JPImagePickerViewController.swift in Sources */,
+				9DD5027624F8DA9C0009F046 /* StickerView.m in Sources */,
 				9D4B67F824F7C1F60025A933 /* JPChangeMarginBGView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -592,6 +624,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TEA4KWX63Q;
 				INFOPLIST_FILE = JigsawProduct/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -614,6 +647,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TEA4KWX63Q;
 				INFOPLIST_FILE = JigsawProduct/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (

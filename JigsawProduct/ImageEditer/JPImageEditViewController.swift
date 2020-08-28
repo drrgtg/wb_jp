@@ -25,7 +25,11 @@ class JPImageEditViewController: JPBaseViewController {
     var marginBGView: JPChangeMarginBGView?
     // Font
     var fontBGView: JPFontBGView?
-    
+    // Text
+    var stickerTextView: JPStickerFontView?
+    // sticker
+    var stickerBGView: JPStickerPictureView?
+    var selectSticker: StickerView?
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -34,9 +38,13 @@ class JPImageEditViewController: JPBaseViewController {
         // default is clickBtn1
         clickBtn1(btn1 as Any)
         tempBGView?.setupDataUI(selImages?.count ?? 0)
-        addImageViews()
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.3) {
+            self.addImageViews()
+        }
         tempModeChanged()
         marginModeChaned()
+        fontModeChanged()
+        stickerModeChanged()
     }
     override func initSubviews() {
         super.initSubviews()
@@ -60,6 +68,12 @@ class JPImageEditViewController: JPBaseViewController {
         fontBGV.backgroundColor = backColor
         fontBGV.isHidden = true
         fontBGView = fontBGV
+        // sticker
+        let stickerBGV = JPStickerPictureView(frame: frame)
+        workTabBGView.addSubview(stickerBGV)
+        stickerBGV.backgroundColor = backColor
+        stickerBGV.isHidden = true
+        stickerBGView = stickerBGV
         
     }
     func addImageViews(){
@@ -96,6 +110,53 @@ class JPImageEditViewController: JPBaseViewController {
         marginBGView?.slideMarginBlock = {[weak self] (value) in
             print(value)
             self?.animationMargin(value)
+        }
+    }
+    func fontModeChanged() {
+        fontBGView?.clickFont = {[weak self] (font) in
+            // show a textedit in middle
+            self?.showTextView(font)
+        }
+        fontBGView?.clickBGColorBlock = { [weak self] (color) in
+            guard let v = self?.stickerTextView else {
+                return
+            }
+            v.textView.textColor = color
+        }
+    }
+    func stickerModeChanged() {
+        
+        stickerBGView?.clickBGColorBlock = { [weak self] (stickerImage) in
+            guard let sself = self, let image = stickerImage else {
+                return
+            }
+            sself.addStickerView(image)
+        }
+    }
+    func addStickerView(_ image: UIImage) {
+
+        let stickerView = StickerView(contentFrame: CGRect(x: 0, y: 0, width: image.size.width, height: image.size.height), contentImage: image)
+        stickerView?.enabledControl = false
+        stickerView?.enabledBorder = false
+        stickerView?.delegate = self as StickerViewDelegate
+        stickerView?.performTapOperation()
+        imageContainerView.addSubview(stickerView!)
+        stickerView?.center = imageContainerView.center
+        selectSticker = stickerView
+    }
+    func showTextView(_ font: UIFont) {
+        if stickerTextView == nil {
+            let v = JPStickerFontView(frame: CGRect(x: 0, y: 0, width: 210, height: 70))
+            v.backgroundColor = .clear
+            v.textView.font = font
+            v.textView.text = "Font"
+            v.center = imageContainerView.center
+            v.textView.sizeToFit()
+            v.sizeToFit()
+            imageContainerView.addSubview(v)
+            stickerTextView = v
+        } else {
+            stickerTextView?.textView.font = font
         }
     }
     func radiosImageViews(_ precent: Float) {
@@ -158,8 +219,8 @@ class JPImageEditViewController: JPBaseViewController {
     }
     @IBAction func clickBtn4(_ sender: Any) {
         btn4.isSelected = !btn4.isSelected
-        tempBGView?.isHidden = false
-        if let tv = tempBGView {
+        stickerBGView?.isHidden = false
+        if let tv = stickerBGView {
             workTabBGView.bringSubviewToFront(tv)
         }
         btn1.isSelected = false
@@ -168,5 +229,30 @@ class JPImageEditViewController: JPBaseViewController {
     }
     @IBAction func clickSaveBtn(_ sender: Any) {
         
+    }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+    }
+}
+
+extension JPImageEditViewController: StickerViewDelegate {
+
+    func stickerViewDidTapContentView(_ stickerView: StickerView!) {
+        if let sticker = selectSticker {
+            sticker.enabledControl = false
+            sticker.enabledBorder = false
+        } else {
+            selectSticker = stickerView
+            selectSticker?.enabledBorder = true
+            selectSticker?.enabledControl = true
+        }
+    }
+    func stickerViewDidTapDeleteControl(_ stickerView: StickerView!) {
+        for subView in imageContainerView.subviews {
+            if let sv = subView as? StickerView {
+                sv.performTapOperation()
+                break
+            }
+        }
     }
 }

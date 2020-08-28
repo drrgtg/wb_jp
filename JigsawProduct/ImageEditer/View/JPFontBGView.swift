@@ -13,22 +13,22 @@ class JPFontBGView: UIView {
     var scrollView1: UIScrollView?
     var scrollView2: UIScrollView?
     let fonts: [UIFont?] = [
-        UIFont(name: "Thonburi-Bold", size: 15),
-        UIFont(name: "KhmerSangamMN", size: 15),
-        UIFont(name: "SnellRoundhand-Black", size: 15),
-        UIFont(name: "AcademyEngravedLetPlain", size: 15),
-        UIFont(name: "MarkerFelt-Thin", size: 15),
-        UIFont(name: "Avenir-Heavy", size: 15),
-        UIFont(name: "GeezaPro-Bold", size: 15),
-        UIFont(name: "ArialRoundedMTBold", size: 15),
-        UIFont(name: "Trebuchet-BoldItalic", size: 15),
-        UIFont(name: "ArialMT", size: 15),
-        UIFont(name: "Marion-Regular", size: 15),
-        UIFont(name: "Menlo-Italic", size: 15),
-        UIFont(name: "MalayalamSangamMN", size: 15),
-        UIFont(name: "KannadaSangamMN", size: 15),
-        UIFont(name: "GurmukhiMN-Bold", size: 15),
-        UIFont(name: "BodoniSvtyTwoOSITCTT-BookIt", size: 15)]
+        UIFont(name: "Thonburi-Bold", size: 30),
+        UIFont(name: "KhmerSangamMN", size: 30),
+        UIFont(name: "SnellRoundhand-Black", size: 30),
+        UIFont(name: "AcademyEngravedLetPlain", size: 30),
+        UIFont(name: "MarkerFelt-Thin", size: 30),
+        UIFont(name: "Avenir-Heavy", size: 30),
+        UIFont(name: "GeezaPro-Bold", size: 30),
+        UIFont(name: "ArialRoundedMTBold", size: 30),
+        UIFont(name: "Trebuchet-BoldItalic", size: 30),
+        UIFont(name: "ArialMT", size: 30),
+        UIFont(name: "Marion-Regular", size: 30),
+        UIFont(name: "Menlo-Italic", size: 30),
+        UIFont(name: "MalayalamSangamMN", size: 30),
+        UIFont(name: "KannadaSangamMN", size: 30),
+        UIFont(name: "GurmukhiMN-Bold", size: 30),
+        UIFont(name: "BodoniSvtyTwoOSITCTT-BookIt", size: 30)]
     let colors: [UIColor?] = JPTemplateColorModel().allColors
     
     var clickFont: ((UIFont) -> (Void))?
@@ -75,7 +75,7 @@ class JPFontBGView: UIView {
             tempView.contentBtn.setTitle("Font", for: .normal)
             tempView.contentBtn.setTitleColor(.white, for: .normal)
             tempView.contentBtn.setBackgroundImage(UIImage.qmui_image(with: UIColor.qmui_color(withHexString: "#C110D3")), for: .selected)
-            tempView.contentBtn.titleLabel?.font = font
+            tempView.contentBtn.titleLabel?.font = font?.withSize(15)
             tempView.clickBlock = {[weak self] (tag) in
                 guard let sself = self, let sfont = sself.fonts[i] else {
                     return

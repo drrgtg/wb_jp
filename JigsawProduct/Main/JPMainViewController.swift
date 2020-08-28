@@ -30,7 +30,11 @@ class JPMainViewController: JPBaseViewController {
         var bgHeight: CGFloat = 206.0
         if let size = homeBGImage?.size {
             let height = view.qmui_width / size.width * size.height
-            bgHeight = height
+            if height + 206 > view.qmui_height {
+                bgHeight = view.qmui_height - 206
+            } else {
+                bgHeight = height
+            }
         }
         let bgImageView = UIImageView()
         bgImageView.image = homeBGImage
