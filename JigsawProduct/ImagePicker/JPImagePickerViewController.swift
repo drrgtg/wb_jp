@@ -73,8 +73,6 @@ class JPImagePickerViewController: JPBaseViewController {
                 }
             }
             group.notify(queue: queue) {
-                print("download finished")
-                print(imageArr)
                 DispatchQueue.main.sync {
                     let vc = JPImageEditViewController()
                     vc.selImages = imageArr

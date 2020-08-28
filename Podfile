@@ -9,5 +9,6 @@ target 'JigsawProduct' do
 	pod 'SnapKit'
 	pod 'QMUIKit'
   pod 'SVProgressHUD'
+  pod 'Toast-Swift', '~> 5.0.1'
 
 end

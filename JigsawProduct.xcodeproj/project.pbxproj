@@ -50,6 +50,8 @@
 		9DD5027624F8DA9C0009F046 /* StickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD5027324F8DA9C0009F046 /* StickerView.m */; };
 		9DD5027824F8DC660009F046 /* JPStickerFontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD5027724F8DC660009F046 /* JPStickerFontView.swift */; };
 		9DD5027A24F8ED850009F046 /* JPStickerPictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD5027924F8ED850009F046 /* JPStickerPictureView.swift */; };
+		9DD5027E24F8FD8D0009F046 /* JPSaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD5027C24F8FD8D0009F046 /* JPSaveViewController.swift */; };
+		9DD5027F24F8FD8D0009F046 /* JPSaveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DD5027D24F8FD8D0009F046 /* JPSaveViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,6 +106,8 @@
 		9DD5027324F8DA9C0009F046 /* StickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickerView.m; sourceTree = "<group>"; };
 		9DD5027724F8DC660009F046 /* JPStickerFontView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPStickerFontView.swift; sourceTree = "<group>"; };
 		9DD5027924F8ED850009F046 /* JPStickerPictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPStickerPictureView.swift; sourceTree = "<group>"; };
+		9DD5027C24F8FD8D0009F046 /* JPSaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPSaveViewController.swift; sourceTree = "<group>"; };
+		9DD5027D24F8FD8D0009F046 /* JPSaveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JPSaveViewController.xib; sourceTree = "<group>"; };
 		F8BF70B5AB964AF36AF420FC /* Pods_JigsawProduct.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JigsawProduct.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -153,6 +157,7 @@
 				9D04C3AF24F6016200F25D78 /* AppDelegate.swift */,
 				9D04C3C824F62D8900F25D78 /* Main */,
 				9D04C3F124F651B700F25D78 /* ImagePicker */,
+				9DD5027B24F8F8330009F046 /* Save */,
 				9DD20E0924F75EFC00A358FA /* ImageEditer */,
 				9D04C3DB24F63EC100F25D78 /* Setting */,
 				9D04C3E924F649E700F25D78 /* Coin */,
@@ -314,6 +319,15 @@
 			path = "StickerView-Framework";
 			sourceTree = "<group>";
 		};
+		9DD5027B24F8F8330009F046 /* Save */ = {
+			isa = PBXGroup;
+			children = (
+				9DD5027C24F8FD8D0009F046 /* JPSaveViewController.swift */,
+				9DD5027D24F8FD8D0009F046 /* JPSaveViewController.xib */,
+			);
+			path = Save;
+			sourceTree = "<group>";
+		};
 		C4FA6109D3E93F1CC7918A7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -388,6 +402,7 @@
 				9DD20E0D24F75F4100A358FA /* JPImageEditViewController.xib in Resources */,
 				9DD5027424F8DA9C0009F046 /* StickerView.bundle in Resources */,
 				9D04C3F024F64A4400F25D78 /* JPCoinListTableViewCell.xib in Resources */,
+				9DD5027F24F8FD8D0009F046 /* JPSaveViewController.xib in Resources */,
 				9D04C3BC24F6019100F25D78 /* LaunchScreen.storyboard in Resources */,
 				9D04C3B924F6019100F25D78 /* Assets.xcassets in Resources */,
 				9D04C3E724F640E000F25D78 /* JPSettingTableViewCell.xib in Resources */,
@@ -468,6 +483,7 @@
 				9DD20E0424F6629200A358FA /* JPImagePickerSelectContainer.swift in Sources */,
 				9D04C3DD24F63EE100F25D78 /* JPSettingViewController.swift in Sources */,
 				9DC569E124F794EC0006E607 /* JPBackgroundItemView.swift in Sources */,
+				9DD5027E24F8FD8D0009F046 /* JPSaveViewController.swift in Sources */,
 				9DC569E524F79AB20006E607 /* EnumConstant.swift in Sources */,
 				9DD20E0724F662B000A358FA /* JPImagePickerSelectCell.swift in Sources */,
 				9D04C3FC24F65AB100F25D78 /* JPImagePickerContainer.swift in Sources */,

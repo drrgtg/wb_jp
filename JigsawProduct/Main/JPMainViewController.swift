@@ -97,18 +97,17 @@ class JPMainViewController: JPBaseViewController {
         if PHPhotoLibrary.authorizationStatus() == .notDetermined {
             PHPhotoLibrary.requestAuthorization({ (status) in
                 if status == .authorized {
-                    print("点同意")
                     DispatchQueue.main.async {
                         self.showImagePickerVC()
                     }
                 } else if status == .denied || status == .restricted{
-                    print("点拒绝")
+                    showToast("You have declined. Please turn on camera permission in settings")
                 }
             })
         } else if PHPhotoLibrary.authorizationStatus() == .authorized {
             showImagePickerVC()
         } else {
-            print("无权限访问")
+            showToast("No access, please turn on camera permission in settings")
         }
     }
     func showImagePickerVC() {

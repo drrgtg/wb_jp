@@ -228,7 +228,30 @@ class JPImageEditViewController: JPBaseViewController {
         btn3.isSelected = false
     }
     @IBAction func clickSaveBtn(_ sender: Any) {
-        
+        // use coin to save
+        let alert = QMUIAlertController(title: "Save Image", message: "Speed 3000 gold coins to save image", preferredStyle: .alert)
+        alert.addAction(QMUIAlertAction(title: "determine", style: .default, handler: { (_, _) in
+            print("determine")
+            self.payAndSave()
+        }))
+        alert.addCancelAction()
+        alert.showWith(animated: true)
+    }
+    func payAndSave() {
+        let vc = JPSaveViewController()
+        let image = saveImage()
+        vc.image = image
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    func saveImage() -> UIImage? {
+        UIGraphicsBeginImageContextWithOptions(imageContainerView.frame.size,true, 0.0);
+        guard let context = UIGraphicsGetCurrentContext() else {
+            return nil
+        }
+        imageContainerView.layer.render(in: context)
+        let snapShotImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return snapShotImage
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         view.endEditing(true)
