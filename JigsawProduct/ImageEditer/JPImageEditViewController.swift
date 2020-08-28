@@ -21,7 +21,9 @@ class JPImageEditViewController: JPBaseViewController {
     @IBOutlet weak var saveBtn: UIButton!
     // template
     var tempBGView: JPTemplateABGView?
-    //
+    // margin
+    var marginBGView: JPChangeMarginBGView?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -30,6 +32,26 @@ class JPImageEditViewController: JPBaseViewController {
         // default is clickBtn1
         clickBtn1(btn1 as Any)
         tempBGView?.setupDataUI(selImages?.count ?? 0)
+        addImageViews()
+        tempModeChanged()
+        marginModeChaned()
+    }
+    override func initSubviews() {
+        super.initSubviews()
+        let backColor = workTabBGView.superview?.backgroundColor
+        let tempBGV = JPTemplateABGView(frame: CGRect(x: 0, y: 0, width: view.qmui_width, height: 180))
+        workTabBGView.addSubview(tempBGV)
+        tempBGV.isHidden = true
+        tempBGV.backgroundColor = backColor
+
+        tempBGView = tempBGV
+        let marginBGV = JPChangeMarginBGView(frame:  CGRect(x: 0, y: 0, width: view.qmui_width, height: 180))
+        workTabBGView.addSubview(marginBGV)
+        marginBGV.backgroundColor = backColor
+        marginBGV.isHidden = true
+        marginBGView = marginBGV
+    }
+    func tempModeChanged() {
         tempBGView?.clickTempMode = {[weak self] (modeNum) in
             guard let sself = self else {
                 return
@@ -42,14 +64,14 @@ class JPImageEditViewController: JPBaseViewController {
             }
             sself.imageContainerView.backgroundColor = color
         }
-        addImageViews()
     }
-    override func initSubviews() {
-        super.initSubviews()
-        let tempBGV = JPTemplateABGView(frame: CGRect(x: 0, y: 0, width: view.qmui_width, height: 180))
-        workTabBGView.addSubview(tempBGV)
-        tempBGView = tempBGV
-//        let marginBGV = JPChangeMarginBGView()
+    func marginModeChaned() {
+        marginBGView?.slideFilletBlock = {(value) in
+            print(value)
+        }
+        marginBGView?.slideMarginBlock = {(value) in
+            print(value)
+        }
     }
     func addImageViews(){
         for i in 0..<selImages!.count {
@@ -92,8 +114,8 @@ class JPImageEditViewController: JPBaseViewController {
     }
     @IBAction func clickBtn2(_ sender: Any) {
         btn2.isSelected = !btn2.isSelected
-        tempBGView?.isHidden = false
-        if let tv = tempBGView {
+        marginBGView?.isHidden = false
+        if let tv = marginBGView {
             workTabBGView.bringSubviewToFront(tv)
         }
         btn1.isSelected = false
