@@ -61,7 +61,7 @@ extension JPImagePickerContainer: UICollectionViewDelegate, UICollectionViewData
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         collectionView.deselectItem(at: indexPath, animated: true)
-        if selectPhotosArr.count < 7 {
+        if selectPhotosArr.count < 6 {
             let cell = collectionView.cellForItem(at: indexPath) as! JPImagePickerItemCollectionViewCell
             cell.itemSelectImage.isHidden = !cell.itemSelectImage.isHidden
             let selItem = photosArray[indexPath.row]
