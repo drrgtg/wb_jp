@@ -52,7 +52,7 @@ class JPImagePickerViewController: JPBaseViewController {
     func clickNext(){
 
         if imageContainer?.selectPhotosArr.count == 0 {
-            showToast("Please select at least one photo")
+            JPToast.showToast("Please select at least one photo")
         } else {
             guard let selPhotos = imageContainer?.selectPhotosArr else {
                 return

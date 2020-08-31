@@ -30,5 +30,19 @@ class JPSaveViewController: JPBaseViewController {
         title = "Share"
         bgImageView.image = image
         contentImageView.image = image
+        if let iconShare =  UIImage(named: "icon_share"){
+            navigationItem.rightBarButtonItem = UIBarButtonItem.qmui_item(with:  iconShare, target: self, action: #selector(shareClicked))
+        }
+    }
+    @objc func shareClicked() {
+        //初始化一个UIActivity
+        guard let sImage = image else {
+            return
+        }
+        let activityItems = NSMutableArray(array: [sImage])
+        //初始化UIActivityViewController
+        let activityController = UIActivityViewController(activityItems: activityItems as! [Any], applicationActivities: nil)
+        //iphone中为模式跳转
+        present(activityController, animated: true, completion: nil)
     }
 }

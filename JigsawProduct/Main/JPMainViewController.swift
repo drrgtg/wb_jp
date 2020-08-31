@@ -16,7 +16,12 @@ class JPMainViewController: JPBaseViewController {
 
         // Do any additional setup after loading the view.
     }
-    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        if let goldNumber = UserDefaults.standard.string(forKey: kIAPDefaultGoldNumber) {
+            coinBtn?.setTitle(goldNumber, for: .normal)
+        }
+    }
     override func preferredNavigationBarHidden() -> Bool {
         return true
     }
@@ -101,13 +106,13 @@ class JPMainViewController: JPBaseViewController {
                         self.showImagePickerVC()
                     }
                 } else if status == .denied || status == .restricted{
-                    showToast("You have declined. Please turn on camera permission in settings")
+                    JPToast.showToast("You have declined. Please turn on camera permission in settings")
                 }
             })
         } else if PHPhotoLibrary.authorizationStatus() == .authorized {
             showImagePickerVC()
         } else {
-            showToast("No access, please turn on camera permission in settings")
+            JPToast.showToast("No access, please turn on camera permission in settings")
         }
     }
     func showImagePickerVC() {

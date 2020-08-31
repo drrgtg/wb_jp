@@ -7,20 +7,29 @@
 //
 
 import Foundation
-
-func showToast(_ message:String) {
-    
-}
-func showSuccess(_ message: String) {
-    SVProgressHUD.showSuccess(withStatus: message)
-    DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1.5) {
+import Toast_Swift
+class JPToast: NSObject {
+    open class func showToast(_ message: String, view: UIView? = nil) {
+        if let inView = view {
+            inView.makeToast(message)
+        } else {
+            if let keyWindow = UIApplication.shared.keyWindow {
+                keyWindow.makeToast(message)
+            }
+        }
+    }
+    open class func showSuccess(_ message: String) {
+        SVProgressHUD.showSuccess(withStatus: message)
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1.5) {
+            SVProgressHUD.dismiss()
+        }
+    }
+    open class func showLoading(_ message: String) {
+        SVProgressHUD.show(withStatus: "")
+    }
+    open class func hidLoading() {
         SVProgressHUD.dismiss()
+
     }
 }
-func showLoading(_ message: String) {
-    SVProgressHUD.show(withStatus: "")
-}
-func hidLoading() {
-    SVProgressHUD.dismiss()
 
-}

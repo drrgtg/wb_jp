@@ -239,17 +239,24 @@ class JPImageEditViewController: JPBaseViewController {
         alert.showWith(animated: true)
     }
     func payAndSave() {
-        simage = saveImage()
-        if let saveImage = simage {
-            UIImageWriteToSavedPhotosAlbum(saveImage, self, #selector(saveFinished), nil)
+        if let goldNumber = UserDefaults.standard.string(forKey: kIAPDefaultGoldNumber) {
+            if Int(goldNumber) ?? 0 < 3000 {
+                let vc = JPCoinListViewController()
+                navigationController?.pushViewController(vc, animated: true)
+            } else {
+                UserDefaults.standard.setValue("\(Int(goldNumber)! - 3000)", forKey: kIAPDefaultGoldNumber)
+                simage = saveImage()
+                if let saveImage = simage {
+                    UIImageWriteToSavedPhotosAlbum(saveImage, self, #selector(imageSaveFinished(image:error:context:)), nil)
+                }
+            }
         }
     }
-    @objc func saveFinished() {
+    @objc func imageSaveFinished(image: UIImage, error: Error, context: UnsafeRawPointer) {
         let vc = JPSaveViewController()
         vc.image = simage
         navigationController?.pushViewController(vc, animated: true)
     }
-        
     func saveImage() -> UIImage? {
         UIGraphicsBeginImageContextWithOptions(imageContainerView.frame.size,true, 0.0);
         guard let context = UIGraphicsGetCurrentContext() else {

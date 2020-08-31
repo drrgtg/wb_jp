@@ -22,3 +22,5 @@ var iPhoneX: Bool {
     }
 }
 let JPBottomXMAXHeight:CGFloat = iPhoneX ? 34 : 0
+
+let kIAPDefaultGoldNumber = "kIAPDefaultGoldNumber"

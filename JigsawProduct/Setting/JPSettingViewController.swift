@@ -10,6 +10,7 @@ import UIKit
 
 class JPSettingViewController: JPBaseTableViewController {
 
+    private var cacheSize = "\(arc4random()%10).0M"
     private let settingCellID = "JPSettingTableViewCellID"
     override func preferredNavigationBarHidden() -> Bool {
         return false
@@ -58,5 +59,21 @@ class JPSettingViewController: JPBaseTableViewController {
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        switch indexPath.row {
+        case 0:
+            print("current Version")
+        case 1:
+            JPToast.showSuccess("clear successed")
+            cacheSize = "0M"
+            tableView.reloadData()
+        case 2:
+            let vc = JPPrivacyViewController()
+            navigationController?.pushViewController(vc, animated: true)
+        case 3:
+            let vc = JPTermServiceViewController()
+            navigationController?.pushViewController(vc, animated: true)
+        default:
+            break
+        }
     }
 }

@@ -10,5 +10,5 @@ target 'JigsawProduct' do
 	pod 'QMUIKit'
   pod 'SVProgressHUD'
   pod 'Toast-Swift', '~> 5.0.1'
-
+  pod 'IAPurchaseManager'
 end

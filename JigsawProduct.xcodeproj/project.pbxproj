@@ -29,6 +29,10 @@
 		9D04C3F724F6553F00F25D78 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D04C3F624F6553F00F25D78 /* Photos.framework */; };
 		9D04C3FA24F658E500F25D78 /* JPToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04C3F924F658E500F25D78 /* JPToast.swift */; };
 		9D04C3FC24F65AB100F25D78 /* JPImagePickerContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D04C3FB24F65AB100F25D78 /* JPImagePickerContainer.swift */; };
+		9D150F1724FC9CA000845A87 /* JPPrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F1524FC9CA000845A87 /* JPPrivacyViewController.swift */; };
+		9D150F1824FC9CA000845A87 /* JPPrivacyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D150F1624FC9CA000845A87 /* JPPrivacyViewController.xib */; };
+		9D150F1B24FCA26000845A87 /* JPTermServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F1924FCA26000845A87 /* JPTermServiceViewController.swift */; };
+		9D150F1C24FCA26000845A87 /* JPTermServiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D150F1A24FCA26000845A87 /* JPTermServiceViewController.xib */; };
 		9D4B67F824F7C1F60025A933 /* JPChangeMarginBGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4B67F724F7C1F60025A933 /* JPChangeMarginBGView.swift */; };
 		9D6F851424F7A60900343523 /* FFStyleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6F851324F7A60900343523 /* FFStyleModel.m */; };
 		9DC569DD24F789D90006E607 /* JPTemplateItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC569DC24F789D90006E607 /* JPTemplateItemView.swift */; };
@@ -82,6 +86,10 @@
 		9D04C3F624F6553F00F25D78 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		9D04C3F924F658E500F25D78 /* JPToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPToast.swift; sourceTree = "<group>"; };
 		9D04C3FB24F65AB100F25D78 /* JPImagePickerContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPImagePickerContainer.swift; sourceTree = "<group>"; };
+		9D150F1524FC9CA000845A87 /* JPPrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPPrivacyViewController.swift; sourceTree = "<group>"; };
+		9D150F1624FC9CA000845A87 /* JPPrivacyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JPPrivacyViewController.xib; sourceTree = "<group>"; };
+		9D150F1924FCA26000845A87 /* JPTermServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPTermServiceViewController.swift; sourceTree = "<group>"; };
+		9D150F1A24FCA26000845A87 /* JPTermServiceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JPTermServiceViewController.xib; sourceTree = "<group>"; };
 		9D4B67F724F7C1F60025A933 /* JPChangeMarginBGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPChangeMarginBGView.swift; sourceTree = "<group>"; };
 		9D6F851224F7A60900343523 /* FFStyleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFStyleModel.h; sourceTree = "<group>"; };
 		9D6F851324F7A60900343523 /* FFStyleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFStyleModel.m; sourceTree = "<group>"; };
@@ -207,6 +215,10 @@
 			isa = PBXGroup;
 			children = (
 				9D04C3DC24F63EE100F25D78 /* JPSettingViewController.swift */,
+				9D150F1924FCA26000845A87 /* JPTermServiceViewController.swift */,
+				9D150F1A24FCA26000845A87 /* JPTermServiceViewController.xib */,
+				9D150F1524FC9CA000845A87 /* JPPrivacyViewController.swift */,
+				9D150F1624FC9CA000845A87 /* JPPrivacyViewController.xib */,
 				9D04C3E024F6409500F25D78 /* View */,
 			);
 			path = Setting;
@@ -401,6 +413,8 @@
 			files = (
 				9DD20E0D24F75F4100A358FA /* JPImageEditViewController.xib in Resources */,
 				9DD5027424F8DA9C0009F046 /* StickerView.bundle in Resources */,
+				9D150F1C24FCA26000845A87 /* JPTermServiceViewController.xib in Resources */,
+				9D150F1824FC9CA000845A87 /* JPPrivacyViewController.xib in Resources */,
 				9D04C3F024F64A4400F25D78 /* JPCoinListTableViewCell.xib in Resources */,
 				9DD5027F24F8FD8D0009F046 /* JPSaveViewController.xib in Resources */,
 				9D04C3BC24F6019100F25D78 /* LaunchScreen.storyboard in Resources */,
@@ -477,6 +491,7 @@
 				9DD20E1224F782F700A358FA /* JPTemplateModel.swift in Sources */,
 				9D6F851424F7A60900343523 /* FFStyleModel.m in Sources */,
 				9D04C3EB24F64A1500F25D78 /* JPCoinListViewController.swift in Sources */,
+				9D150F1B24FCA26000845A87 /* JPTermServiceViewController.swift in Sources */,
 				9D04C3EF24F64A4400F25D78 /* JPCoinListTableViewCell.swift in Sources */,
 				9D04C3FA24F658E500F25D78 /* JPToast.swift in Sources */,
 				9D04C3F524F6535700F25D78 /* JPImagePickerManager.swift in Sources */,
@@ -492,6 +507,7 @@
 				9DD5027A24F8ED850009F046 /* JPStickerPictureView.swift in Sources */,
 				9DD20E0C24F75F4100A358FA /* JPImageEditViewController.swift in Sources */,
 				9D04C3F324F6533200F25D78 /* JPImagePickerViewController.swift in Sources */,
+				9D150F1724FC9CA000845A87 /* JPPrivacyViewController.swift in Sources */,
 				9DD5027624F8DA9C0009F046 /* StickerView.m in Sources */,
 				9D4B67F824F7C1F60025A933 /* JPChangeMarginBGView.swift in Sources */,
 			);

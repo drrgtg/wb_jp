@@ -74,7 +74,7 @@ extension JPImagePickerContainer: UICollectionViewDelegate, UICollectionViewData
             }
             selChangeBlock?()
         } else {
-            showToast("max number is 6")
+            JPToast.showToast("max number is 6", view: self)
         }
     }
     

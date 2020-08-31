@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        setupDefaultData()
         setupRootVC()
         return true
     }
@@ -24,6 +25,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = wind
         wind.rootViewController = JPBasseNavigationController(rootViewController: JPMainViewController())
         wind.makeKeyAndVisible()
+    }
+    func setupDefaultData() {
+        if UserDefaults.standard.string(forKey: kIAPDefaultGoldNumber) == nil {
+            UserDefaults.standard.setValue("3000", forKey: kIAPDefaultGoldNumber)
+        }
     }
 }
 
