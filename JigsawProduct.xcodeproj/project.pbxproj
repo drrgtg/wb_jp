@@ -61,7 +61,7 @@
 /* Begin PBXFileReference section */
 		3E526306C35BDB3843B830AC /* Pods-JigsawProduct.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JigsawProduct.release.xcconfig"; path = "Target Support Files/Pods-JigsawProduct/Pods-JigsawProduct.release.xcconfig"; sourceTree = "<group>"; };
 		8A1694F7E795537B98D3CC0C /* Pods-JigsawProduct.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JigsawProduct.debug.xcconfig"; path = "Target Support Files/Pods-JigsawProduct/Pods-JigsawProduct.debug.xcconfig"; sourceTree = "<group>"; };
-		9D04C3AC24F6016100F25D78 /* JigsawProduct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JigsawProduct.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D04C3AC24F6016100F25D78 /* Cardboard Puzzles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cardboard Puzzles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D04C3AF24F6016200F25D78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D04C3B624F6016200F25D78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D04C3B824F6019100F25D78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -154,7 +154,7 @@
 		9D04C3AD24F6016100F25D78 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9D04C3AC24F6016100F25D78 /* JigsawProduct.app */,
+				9D04C3AC24F6016100F25D78 /* Cardboard Puzzles.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -368,7 +368,7 @@
 			);
 			name = JigsawProduct;
 			productName = JigsawProduct;
-			productReference = 9D04C3AC24F6016100F25D78 /* JigsawProduct.app */;
+			productReference = 9D04C3AC24F6016100F25D78 /* Cardboard Puzzles.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -655,16 +655,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TEA4KWX63Q;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6QWVNL84PA;
 				INFOPLIST_FILE = JigsawProduct/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.diantu.JigsawProduct;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.diantus.JigsawProduct;
+				PRODUCT_NAME = "Cardboard Puzzles";
+				PROVISIONING_PROFILE_SPECIFIER = Developer;
 				SWIFT_OBJC_BRIDGING_HEADER = "JigsawProduct/JigsawProduct-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -678,16 +680,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TEA4KWX63Q;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6QWVNL84PA;
 				INFOPLIST_FILE = JigsawProduct/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.diantu.JigsawProduct;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.diantus.JigsawProduct;
+				PRODUCT_NAME = "Cardboard Puzzles";
+				PROVISIONING_PROFILE_SPECIFIER = Developer;
 				SWIFT_OBJC_BRIDGING_HEADER = "JigsawProduct/JigsawProduct-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

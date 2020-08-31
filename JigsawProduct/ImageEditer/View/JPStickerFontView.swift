@@ -31,6 +31,13 @@ class JPStickerFontView: UIView {
         textView.snp.makeConstraints { (make) in
             make.edges.equalToSuperview()
         }
+//        // pan
+//        let panGs = UIPanGestureRecognizer(target: self, action: #selector(move(_:)))
+//        self.addGestureRecognizer(panGs)
     }
-    
+//    @objc func move(_ pan: UIPanGestureRecognizer) {
+//        let transPoint = pan.translation(in: superview)
+//        print(transPoint)
+//
+//    }
 }
