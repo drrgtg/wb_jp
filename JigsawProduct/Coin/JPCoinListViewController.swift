@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class JPProductItem: NSObject {
     var price: String = ""
     var goldNumber: String = ""
@@ -26,15 +27,16 @@ class JPCoinListViewController: JPBaseTableViewController {
     private let JPCoinCellID = "JPCoinListTableViewCellID"
     private var coinBtn: QMUIButton?
     private let dataSource: Array = [
-        JPProductItem("$0.99", goldNumber: "1000", iapID: "com.jigsaw.slide.000", desc: "X 1000"),
-        JPProductItem("$0.99", goldNumber: "1000", iapID: "com.jigsaw.slide.000", desc: "X 1000"),
-        JPProductItem("$0.99", goldNumber: "1000", iapID: "com.jigsaw.slide.000", desc: "X 1000"),
-        JPProductItem("$0.99", goldNumber: "1000", iapID: "com.jigsaw.slide.000", desc: "X 1000"),
-        JPProductItem("$0.99", goldNumber: "1000", iapID: "com.jigsaw.slide.000", desc: "X 1000"),
-        JPProductItem("$0.99", goldNumber: "1000", iapID: "com.jigsaw.slide.000", desc: "X 1000"),
-        JPProductItem("$0.99", goldNumber: "1000", iapID: "com.jigsaw.slide.000", desc: "X 1000"),
-        JPProductItem("$0.99", goldNumber: "1000", iapID: "com.jigsaw.slide.000", desc: "X 1000"),
-        JPProductItem("$0.99", goldNumber: "1000", iapID: "com.jigsaw.slide.000", desc: "X 1000")
+        JPProductItem("$6.99", goldNumber: "1000", iapID: "com.jigsaw.slide.buy258", desc: "X 1000"),
+        JPProductItem("$11.99", goldNumber: "2000", iapID: "com.jigsaw.slide.buy388", desc: "X 2000"),
+        JPProductItem("$19.99", goldNumber: "3000", iapID: "com.jigsaw.slide.buy518", desc: "X 3000"),
+        JPProductItem("$29.99", goldNumber: "4000", iapID: "com.jigsaw.slide.buy648", desc: "X 4000"),
+        JPProductItem("$49.99", goldNumber: "5000", iapID: "com.jigsaw.slide.buy848", desc: "X 5000"),
+        JPProductItem("$59.99", goldNumber: "6000", iapID: "com.jigsaw.slide.buy998", desc: "X 6000"),
+        JPProductItem("$69.99", goldNumber: "7000", iapID: "com.jigsaw.slide.buy1298", desc: "X 7000"),
+        JPProductItem("$79.99", goldNumber: "8000", iapID: "com.jigsaw.slide.buy1998", desc: "X 8000"),
+        JPProductItem("$89.99", goldNumber: "9000", iapID: "com.jigsaw.slide.buy3998", desc: "X 9000"),
+        JPProductItem("$99.99", goldNumber: "10000", iapID: "com.jigsaw.slide.buy4998", desc: "X 10000")
     ]
     override func preferredNavigationBarHidden() -> Bool {
         return false
