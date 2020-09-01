@@ -42,7 +42,7 @@ class JPStickerPictureView: UIView {
     
     // fillSubViews
     func fillSubViews() {
-        for i in 0..<15 {
+        for i in 0..<14 {
             let imageName = "icon_watermark_\(i + 1)"
             let image = UIImage(named: imageName)
             let x = i * 66
@@ -55,11 +55,11 @@ class JPStickerPictureView: UIView {
                 guard let sself = self else {
                     return
                 }
-                sself.clickSmContentBtn(tag, count: 15)
+                sself.clickSmContentBtn(tag, count: 14)
                 sself.clickBGColorBlock?(image)
             }
         }
-        scrollView1?.contentSize = CGSize(width: 15 * 66 + 66, height: 50)
+        scrollView1?.contentSize = CGSize(width: 14 * 66 + 66, height: 50)
         // backgroundColor
         for i in 0..<14 {
             let imageName = "icon_watermark_\(i + 1)"

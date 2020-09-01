@@ -49,32 +49,44 @@ class JPImageEditViewController: JPBaseViewController {
     }
     override func initSubviews() {
         super.initSubviews()
-        let frame = CGRect(x: 0, y: 0, width: view.qmui_width, height: 180)
+        let frame = CGRect(x: 0, y: 0, width: ScreenWidth, height: 180)
         imageContainerView.layer.masksToBounds = true
         let backColor = workTabBGView.superview?.backgroundColor
         let tempBGV = JPTemplateABGView(frame: frame)
         workTabBGView.addSubview(tempBGV)
         tempBGV.isHidden = true
         tempBGV.backgroundColor = backColor
-
+        tempBGV.snp.makeConstraints { (make) in
+            make.edges.equalToSuperview()
+        }
+        
         tempBGView = tempBGV
         let marginBGV = JPChangeMarginBGView(frame:  frame)
         workTabBGView.addSubview(marginBGV)
         marginBGV.backgroundColor = backColor
         marginBGV.isHidden = true
         marginBGView = marginBGV
+        marginBGV.snp.makeConstraints { (make) in
+            make.edges.equalToSuperview()
+        }
         // Font
         let fontBGV = JPFontBGView(frame: frame)
         workTabBGView.addSubview(fontBGV)
         fontBGV.backgroundColor = backColor
         fontBGV.isHidden = true
         fontBGView = fontBGV
+        fontBGV.snp.makeConstraints { (make) in
+            make.edges.equalToSuperview()
+        }
         // sticker
         let stickerBGV = JPStickerPictureView(frame: frame)
         workTabBGView.addSubview(stickerBGV)
         stickerBGV.backgroundColor = backColor
         stickerBGV.isHidden = true
         stickerBGView = stickerBGV
+        stickerBGV.snp.makeConstraints { (make) in
+            make.edges.equalToSuperview()
+        }
         
     }
     func addImageViews(){
