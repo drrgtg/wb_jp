@@ -17,13 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="launch.png" translatesAutoresizingMaskIntoConstraints="NO" id="0XX-8Q-eSp">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="-60" width="414" height="956"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="0XX-8Q-eSp" secondAttribute="trailing" id="64U-ih-nc9"/>
-                            <constraint firstItem="0XX-8Q-eSp" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="It6-iy-XG5"/>
+                            <constraint firstItem="0XX-8Q-eSp" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="-60" id="It6-iy-XG5"/>
                             <constraint firstItem="0XX-8Q-eSp" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="UQr-ZE-2Un"/>
                             <constraint firstAttribute="bottom" secondItem="0XX-8Q-eSp" secondAttribute="bottom" id="bnI-PI-3lS"/>
                         </constraints>

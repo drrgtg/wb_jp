@@ -107,6 +107,7 @@ class JPCoinListViewController: JPBaseTableViewController {
                 }
             } else {
               // something wrong..
+                JPToast.showToast(error?.localizedDescription ?? "")
             }
         }
     }

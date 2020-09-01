@@ -659,8 +659,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 6QWVNL84PA;
 				INFOPLIST_FILE = JigsawProduct/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -670,7 +671,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.diantus.JigsawProduct;
 				PRODUCT_NAME = "Cardboard Puzzles";
-				PROVISIONING_PROFILE_SPECIFIER = Developer;
+				PROVISIONING_PROFILE_SPECIFIER = AppStore;
 				SWIFT_OBJC_BRIDGING_HEADER = "JigsawProduct/JigsawProduct-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -684,8 +685,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 6QWVNL84PA;
 				INFOPLIST_FILE = JigsawProduct/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -695,7 +697,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.diantus.JigsawProduct;
 				PRODUCT_NAME = "Cardboard Puzzles";
-				PROVISIONING_PROFILE_SPECIFIER = Developer;
+				PROVISIONING_PROFILE_SPECIFIER = AppStore;
 				SWIFT_OBJC_BRIDGING_HEADER = "JigsawProduct/JigsawProduct-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
