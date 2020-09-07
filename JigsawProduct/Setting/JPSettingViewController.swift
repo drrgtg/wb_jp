@@ -44,7 +44,7 @@ class JPSettingViewController: JPBaseTableViewController {
             cell.rightLabel.text = ""
         case 1:
             cell.leftLabel.text = "Clear Cache"
-            cell.rightLabel.text = ""
+            cell.rightLabel.text = cacheSize
         case 2:
             cell.leftLabel.text = "Privacy Policy"
             cell.rightLabel.text = ""

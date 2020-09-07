@@ -67,7 +67,6 @@ class JPStickerPictureView: UIView {
 
             let x = i * 66
             let tempView = JPTemplateItemView(frame: CGRect(x: x, y: 0, width: 50, height: 50))
-            scrollView1?.addSubview(tempView)
             tempView.contentBtn.tag = 600 + i
             scrollView2?.addSubview(tempView)
             tempView.contentBtn.setBackgroundImage(image, for: .normal)

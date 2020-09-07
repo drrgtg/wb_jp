@@ -201,7 +201,7 @@ class JPImageEditViewController: JPBaseViewController {
         }
     }
     @IBAction func clickBtn1(_ sender: Any) {
-        btn1.isSelected = !btn1.isSelected
+        btn1.isSelected = true
         tempBGView?.isHidden = false
         if let tv = tempBGView {
             workTabBGView.bringSubviewToFront(tv)
@@ -211,7 +211,7 @@ class JPImageEditViewController: JPBaseViewController {
         btn4.isSelected = false
     }
     @IBAction func clickBtn2(_ sender: Any) {
-        btn2.isSelected = !btn2.isSelected
+        btn2.isSelected = true
         marginBGView?.isHidden = false
         if let tv = marginBGView {
             workTabBGView.bringSubviewToFront(tv)
@@ -221,7 +221,7 @@ class JPImageEditViewController: JPBaseViewController {
         btn4.isSelected = false
     }
     @IBAction func clickBtn3(_ sender: Any) {
-        btn3.isSelected = !btn3.isSelected
+        btn3.isSelected = true
         fontBGView?.isHidden = false
         if let tv = fontBGView {
             workTabBGView.bringSubviewToFront(tv)
@@ -231,7 +231,7 @@ class JPImageEditViewController: JPBaseViewController {
         btn4.isSelected = false
     }
     @IBAction func clickBtn4(_ sender: Any) {
-        btn4.isSelected = !btn4.isSelected
+        btn4.isSelected = true
         stickerBGView?.isHidden = false
         if let tv = stickerBGView {
             workTabBGView.bringSubviewToFront(tv)
