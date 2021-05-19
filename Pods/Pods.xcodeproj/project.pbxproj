@@ -14,7 +14,6 @@
 		0286BF97FF8F2643BD360FD708F162B4 /* QMUITestView.h in Headers */ = {isa = PBXBuildFile; fileRef = 649AD499367662A076F1A2CC47A89FA1 /* QMUITestView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		02A2C1448ECA6F6D41B57B9D72CB48F9 /* QMUIWindowSizeMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D5D70E88485B8DD1013AF6D8B629E9 /* QMUIWindowSizeMonitor.m */; };
 		039EAFE7935113805F3FC21BF1B7C9D5 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09FE8B9F8519E1E8434CB9B6F8A20E7 /* LayoutConstraint.swift */; };
-		04543980C4A7CE442330B0F1BC4A9A54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
 		04638CAB1E2CD3F2FA7AC500FA99CFEB /* UIFont+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 19567FAE67B4A0B847AAC0FA3E000690 /* UIFont+QMUI.m */; };
 		04AB9A9B73AE469C37470B781AA44DE5 /* UIActivityIndicatorView+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AAA7E0A7FDC11418BED6835A3E8F643 /* UIActivityIndicatorView+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05C620B82125B8336386236A3760A425 /* UITextView+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F732A345E6C951239CBFEF6D2A3D43 /* UITextView+QMUI.m */; };
@@ -27,6 +26,7 @@
 		0BF2082E2FADBB4FC0E77216EFF76956 /* QMUIEasings.h in Headers */ = {isa = PBXBuildFile; fileRef = 454B1F6C2C92BA85ED6C4CF757635350 /* QMUIEasings.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C99E0ED1C48CD61F7F49BF1BB837ED0 /* QMUIResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FFDF743B2D7D655F7364FF1154FFEDE6 /* QMUIResources.bundle */; };
 		0CA80ED7E59E6BCE64CEEE649A3C6D2F /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FF0FE8EBDC1FE3C25B434A866A888E3 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D3C2D5BC65C9C3346436B06BEFB3BF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
 		0E611D99218DBF866A849EBC28E79F89 /* QMUIImagePickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0274B2A1465D049441B9F90B310DFBBE /* QMUIImagePickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0FCC8EF992E2C816A38C5DFAF5354B92 /* QMUIConsoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D31DEAD74CD5FDA76FBD25CA079FE62 /* QMUIConsoleViewController.m */; };
 		1174EC4FF655892226CC61D4F8A7B364 /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B7FB710153FF51204DDD495AFC4402 /* IAPManager.swift */; };
@@ -39,6 +39,7 @@
 		1796024B372A9297E284560FF2E2EB4C /* NSCharacterSet+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 94FC2AC30CABB7F43A256C5747B37764 /* NSCharacterSet+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1870D29C29BF9F2AF9992F1E62E29503 /* QMUIDialogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF506A44B97B3C2FD92AB7BDD178A95D /* QMUIDialogViewController.m */; };
 		18822DC8D76B427857B6DD80B59435E0 /* QMUITheme.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AAB07262D68A9176F53393D0708E443 /* QMUITheme.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1911404C8205D5131FA46E0AD42CD3DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
 		1956E392D500F3CD899D39A5F805736D /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D0FDECF69950423D1C8379C2E2BDA6 /* Typealiases.swift */; };
 		1A405DB8F4C80AFF2C01AC78FA0BB211 /* QMUILog.h in Headers */ = {isa = PBXBuildFile; fileRef = 241E54C58ACEF99C7BFADE32F6D7CD36 /* QMUILog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A90CAEDDC97D49FA580118D1B729A45 /* QMUISearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 178F138297489942588971B20DBF0A9B /* QMUISearchBar.m */; };
@@ -48,7 +49,6 @@
 		21AB1101BBE4D28D74ED4EDF0D59025A /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB3B7B49B1A9F0EFF5B38D4C327041D /* ConstraintInsets.swift */; };
 		21CF2654C343366D9A21A2AED25F86A7 /* UICollectionView+QMUICellSizeKeyCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B630B25228931F5828099403BECF690E /* UICollectionView+QMUICellSizeKeyCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		225EEBA35F44455D59A2DF16B3A8D850 /* NSMethodSignature+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = A7394B683635AF1547E4CE3D31BD1D8E /* NSMethodSignature+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		228A55B9F543F08E7251BDFF9027E8C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DE6DFF52489DACAF66A82BFD0FE2CA /* UIKit.framework */; };
 		232B2F922E972D9F43D2EE15ACECE734 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3C263F5B6B33521F1632FC22FDA171 /* ConstraintPriority.swift */; };
 		233333090658700ADE92A14AB3455746 /* UIView+QMUIBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = 57FF8D00A1B44351052B30ACBB08DEE7 /* UIView+QMUIBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		242EEC15F8812867589762C0BB25E9D2 /* QMUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 282C7D96920D8202F4DE61BB35CC7835 /* QMUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -177,15 +177,16 @@
 		722678468A1D5034DB42B10A93BB8A3C /* NSArray+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = C2D8DB773A000AFFAD49BC439C81A180 /* NSArray+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73F701003D63C6475B6C2456C6D6CA95 /* QMUILogItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F9DBFFF4885E3EFB37419AA1156481 /* QMUILogItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7516E0A37F48D4CD8FAD04182627232B /* QMUISlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 12759B29EE5BBFD55790B9B9A5CE1B0F /* QMUISlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		753C8C42CEFBED94E1F1E752955F0254 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
 		75892571FF5DA04BEF1B242CC25BCF8D /* UITableViewCell+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F41C4C5674E29191B7D78393164650 /* UITableViewCell+QMUI.m */; };
 		75E146C12D1287228A0B493E87CDE31F /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F221299FA3FFFB8AD7411140874782A0 /* ConstraintMakerRelatable.swift */; };
 		77C9889055A3B32EA13A9616824DB0ED /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636E503C3AA0198AC0CF58FBB3CC32E1 /* ConstraintLayoutGuideDSL.swift */; };
+		7813A09B8F9242BBF63900D45EF15054 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
 		786F57A094288A0C97E248A7B1F425FE /* NSObject+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DDB6C3A35853277CBE222847123BE /* NSObject+QMUI.m */; };
 		78F7F4B1F7E3A71D0FCAD388E7BF2710 /* QMUIImagePickerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6707A19DCCDA0C20F9BD04C9A48A1983 /* QMUIImagePickerHelper.m */; };
 		7919D181D3047242B3FB6EA58EF6C71D /* QMUIWindowSizeMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = F80C631903C02A3FB0C2C3BE8E2AA8DD /* QMUIWindowSizeMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79AE32A1973B058DAA61E0AA392164BC /* CALayer+QMUIViewAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D240B7FD9FE07F78147C36F2BBDDAB /* CALayer+QMUIViewAnimation.m */; };
 		7A0C00A009CBB24AD166CE9DE1C0CFA5 /* QMUISearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A46BD6690AD75BE1B7DC0F96A59217 /* QMUISearchBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A80A89EC35E3021D2B10ECE11B7EF2B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A7DACB743F2A39BC0D9C0E317842D5 /* CoreGraphics.framework */; };
 		7B133EDED572437FAE7A223A4E9DA60E /* QMUIThemeManagerCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A6731FC1BE2548F435B782E549BCBC9D /* QMUIThemeManagerCenter.m */; };
 		7B48A3D5113949F08AE73107B149897B /* UITableView+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E162EE2875DEC7EAA73D19772CD7228 /* UITableView+QMUI.m */; };
 		7B8273019704B0918CB00204CB5DC44D /* QMUIThemeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 05171CD66C339C83EDB0BDC025A02A0B /* QMUIThemeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -197,6 +198,7 @@
 		7C9A88AEF11F60D4A934644310D98A77 /* QMUITips.h in Headers */ = {isa = PBXBuildFile; fileRef = C79E70F7B78C0C6EA2BF154C8CA93C61 /* QMUITips.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7CE9B2573708663B3CA2163D6B776788 /* UICollectionView+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A731F880A3920AB216FE396C1863536 /* UICollectionView+QMUI.m */; };
 		7E1D0EB6868F072D5217F8C42ABB5773 /* UIBezierPath+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = E7C0E89D7FB4F252EE1E0EAA6DB02622 /* UIBezierPath+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F52BD0341E46A6053B15014557ACB6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
 		801DE9DCE117EB39FBAA1FB4C1A83267 /* NSNumber+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = CD48858EAE208BB78597211B292867EE /* NSNumber+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8020BC6FB3240D8CCC0BC3167F170678 /* UIColor+QMUITheme.h in Headers */ = {isa = PBXBuildFile; fileRef = 3039BB96D9E3DBC20AE8F8812159E8F6 /* UIColor+QMUITheme.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		808288F2E06AAA04DE35ECFCC7692E94 /* QMUITextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CD6403EA43287F57E4425E80A9D56A /* QMUITextView.m */; };
@@ -233,14 +235,13 @@
 		94E815CA124461FCB00D1CA9B3D6DB0E /* QMUIStaticTableViewCellData.h in Headers */ = {isa = PBXBuildFile; fileRef = 27650FF4117B299EA074FADDDFD50942 /* QMUIStaticTableViewCellData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9523416F8BF8901F5C3FB18DB48BCCFC /* QMUIVisualEffectView.h in Headers */ = {isa = PBXBuildFile; fileRef = FC2FDDC5C34AC510791FAC176D03226C /* QMUIVisualEffectView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95A5797279C8E984D5F13CDF36E5C3A3 /* QMUILog+QMUIConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = 286E13520E4115F3AFA5BD542F6CD24C /* QMUILog+QMUIConsole.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95ACABC71585D657249CC92BA7731A8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
 		96209E14C37A9E25E9D5B6454B1D0FEB /* QMUINavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDA3CC8B951B5395477BEB4B50BBA79 /* QMUINavigationController.m */; };
 		9639224F13D27E8CA508EA41D94FC291 /* QMUIConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = 9231323F0A29C71E5C7008DF4B92E919 /* QMUIConsole.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		969061C55A47735079AE9832E966EAF4 /* QMUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B758C2C1DA1C2BB2F567E7B9ED297C3 /* QMUIKit-dummy.m */; };
 		96EADE99073DBA8FCE7904627E2D18EE /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9586B334CCA2FF7495EB53A61740F592 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9714C337F6D8432E9F1B3AAC2F72BEDA /* QMUIAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899CB4189BA3E9D46408FD9F0BD2B22B /* QMUIAlbumViewController.m */; };
 		9796E8F75F16CF870EB095E2F744E620 /* UIImage+QMUITheme.h in Headers */ = {isa = PBXBuildFile; fileRef = C3BFEAEEE71D5675E3851F2612CDC895 /* UIImage+QMUITheme.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99456829035D2883017E8EBCDB82C231 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B86528815F4C81E70D4F6522BB7687 /* QuartzCore.framework */; };
+		98DA0541CDA1E06985C7F335C03E27E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D60AC13D33197690A05C641925DDDA /* UIKit.framework */; };
 		99B5296A5EDECE0557B9DA53D9E19CA1 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7506F76AF41336EA27BD0B8A9335B9C0 /* ConstraintItem.swift */; };
 		9A0788EFC23BF5A25552E30B45C7F6DF /* QMUIConsoleViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 48B9C48731CA616DB2F2F5B89CC14BEF /* QMUIConsoleViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B09968922C73D50040C6EEF57890D6E /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6493AE5C574338B6C5A3BF3F2DBE5AE9 /* ConstraintConfig.swift */; };
@@ -298,7 +299,6 @@
 		BECA67DFB5E0984DFAEFCB775C31972E /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DE9F39BB075C2E86E0FFE95603EA31 /* ConstraintView.swift */; };
 		BF22EE92D8E3F128BAD37F793188609D /* NSParagraphStyle+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F1066DEAD8C8B56E400BAA17FF74597 /* NSParagraphStyle+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C03FEE866B6D8E0D627630EE956E97E5 /* QMUIRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = E224C12422409EC6A094EE9E735B8465 /* QMUIRuntime.m */; };
-		C06D290B9216533843023A0BF93F5927 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B86528815F4C81E70D4F6522BB7687 /* QuartzCore.framework */; };
 		C0B79145C68C368451BB1F70E412A0D2 /* QMUINavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = E16A921EA1B7A265E69952362605C2DC /* QMUINavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C13A162BC6237D8836E29E41AE8D5DAF /* QMUILab.h in Headers */ = {isa = PBXBuildFile; fileRef = 94E60A02B44D6A5DE539BB01BF33A12C /* QMUILab.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1BF15EFAF542EDCCC26D210A153F086 /* QMUIOrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = EED8B68C8AB01AA2C664F113C9642A81 /* QMUIOrderedDictionary.m */; };
@@ -319,7 +319,6 @@
 		CAB7EE0FBB2A7350CD300558C2AF335F /* NSObject+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = FDB4A299D78179FBB26266AA4F14A025 /* NSObject+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CAC69C9FAD30BC730F85B0AAE19EA64E /* QMUIAlbumViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F6E7B308861E1B90C526DC39230A7F12 /* QMUIAlbumViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC179593FBA3ECA03E3608506671A5E1 /* CALayer+QMUIViewAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = D026F84E8C4BC79B1F5B8DD9A565B678 /* CALayer+QMUIViewAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD12BBCA326FF0241B74FA40EA5ED6DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
 		CDBA5EB838432614DE905BD6B7463465 /* UISearchBar+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAB136A8C02B453CB70C0961891D212 /* UISearchBar+QMUI.m */; };
 		CDDA42EAD52D260B5BCC7820B8FC77BF /* QMUIConfigurationMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E70B8653A03377E135BF628106B09F0 /* QMUIConfigurationMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDED20A6555E5B4153E0872A78886513 /* UITabBar+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F0F1FB46E65E08F4F76E38A0085A21 /* UITabBar+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -329,14 +328,13 @@
 		D2246BE5AF9C116D84444CC5C955BC02 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2CFA738FD8497D2744BCB72B9D574F /* SVRadialGradientLayer.m */; };
 		D4489980455F74741A41500EF655606B /* QMUIThemePrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 159C084E7C761434CED6E98BA0E644CF /* QMUIThemePrivate.m */; };
 		D4697DC40F3B059E4A0867838CA1814E /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EB7A942B157B97E4DEA6ED5D47D9ED /* ConstraintMultiplierTarget.swift */; };
-		D4914107FF5A197B9D0BC6D1C089E33D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
 		D561A1CB776F3EE1CCCC2C60A9FDB982 /* UIButton+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = C464F79652C49758C455428BDF15AB03 /* UIButton+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5BC6CCDF5B541414E0D99B5DDC128E9 /* UIVisualEffect+QMUITheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 0720F327755880DA371780F03A870DF3 /* UIVisualEffect+QMUITheme.m */; };
 		D5C180C5340D62282DE67907D066185D /* UINavigationBar+Transition.h in Headers */ = {isa = PBXBuildFile; fileRef = D62049388FC2285C0FF02CC53DA29C9A /* UINavigationBar+Transition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D80A468C67E3444B286B4EC5E4466484 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
 		D869821983E661148CEC705AAEC5243C /* QMUIPopupMenuItemProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 82B511436E1280B23C45B9651E5FFEAE /* QMUIPopupMenuItemProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D87B2D5ED73534ACF97CE0A52FA18AE4 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 534FA6BAD1C2F60CCD4A9C0011136A48 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9BD17F5984A9B6F1BBF2B7060EC0292 /* UIBezierPath+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 36329DE0573461E7B1BFB756B1A2CFB8 /* UIBezierPath+QMUI.m */; };
+		DB5A70D2BA1D8EF4EF859B1A6ABA1FB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
 		DBBDA5028C9B1F5E40086D3E1DC20A57 /* QMUITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 432FA9B6083E4E17CE096931F5554B41 /* QMUITableView.m */; };
 		DC006872962B927CBE658D06956259EF /* UIBarItem+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 60779A6FF508D48F90F2AE0595E2F011 /* UIBarItem+QMUI.m */; };
 		DE12057AB8895931A0E9499619C5CFC8 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E8D6B1F20B9029F6EFEEA1B0C698A05 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -345,6 +343,8 @@
 		E0186A63060F0EB3676F95CD0ACE0E18 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D863723064334B04B47D2755EDBA8A5 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E02BEA2BDCCF6D226A322427158AFDF7 /* QMUIImagePickerHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9C34CA9A68032A9E120F51511054B9 /* QMUIImagePickerHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E226A2E0F88ABE78E93FA74EC2BC60B8 /* QMUISegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5DEBB226DA29EFA0016A159C86FAE9 /* QMUISegmentedControl.m */; };
+		E28C2A4D11D0E714F957E6AEF7F92B9F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42DBD2F42D55606EEBA514009498B87 /* QuartzCore.framework */; };
+		E30AFF09BE355906C38B27B0CD35F806 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42DBD2F42D55606EEBA514009498B87 /* QuartzCore.framework */; };
 		E32628D51145AE7EAAD922C171BB4CFE /* QMUIFloatLayoutView.h in Headers */ = {isa = PBXBuildFile; fileRef = B7CC489EA86021C067B9410B17E2AAAB /* QMUIFloatLayoutView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E37D1FC05FBBFEBEC42E10C34B2C5FA6 /* QMUISearchController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B436FDEF04A1846CDDC44E42568AA7F /* QMUISearchController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4BC9EB32294C2F240E785C635DC3EC9 /* UIColor+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F3EEDE63C8C5E74146E3D4C993EBB417 /* UIColor+QMUI.m */; };
@@ -355,6 +355,7 @@
 		E8F2429683B3015CBD39CE883770BCA7 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2F7E19589F98004E617F1203040FE3 /* ConstraintPriorityTarget.swift */; };
 		E95ECEFD74D4A727BAAD4166571E39C7 /* QMUIFillButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDA1076FBCC40D069E9D761C6CE44E3 /* QMUIFillButton.m */; };
 		E9A970BC24EA15832F248EA020072746 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF1A9479E6710764C7B5C36D3C21C06 /* LayoutConstraintItem.swift */; };
+		E9F091F3E1C1665F9584251BED24715F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840FA0B75AF62912A30DDC66B647ED98 /* CoreGraphics.framework */; };
 		EB1726F5E0D0EEBA20E4528B1E37A8FA /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB03C906AA4FFBBCF470CB7D2F4A3B6 /* ConstraintViewDSL.swift */; };
 		EC0AEB8948851AB1C7528FD834EBCA03 /* QMUIPopupMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D59BE1F3364D13F6DAE43324EDA2082 /* QMUIPopupMenuView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDB40EEE7926B0F2D4FD5A08D1F42408 /* NSPointerArray+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BE8B3CF08531DC9AF1444F5BD55207 /* NSPointerArray+QMUI.m */; };
@@ -381,7 +382,6 @@
 		FDE6CD4FB441F6EDFA50B92E6A24E449 /* QMUITabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B38ECFAA90E0BB985C7612089C66AE33 /* QMUITabBarViewController.m */; };
 		FDE8AFC6CBBF9D73BD5D63A9BA491750 /* QMUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CB03C64B9D6EB20505DFDB93FD5D710 /* QMUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE7184AF45F126B4835FCB88651ADE04 /* UILabel+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB1D277D237A7FFE53F6DA26A1F9E37 /* UILabel+QMUI.m */; };
-		FF232C48A635833F9D50D5E204248D31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
 		FFAF186BC6024875027F95E250D25BA7 /* UIViewController+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E182F54691BF4C9B5AE7A27C8202E3 /* UIViewController+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -439,6 +439,7 @@
 		031AF5A79B88C724CC31E0A0C32F4A97 /* UIControl+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIControl+QMUI.h"; sourceTree = "<group>"; };
 		0397983DEF1219DC798DB943057A8C55 /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsets.swift; path = Source/ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
 		03BCE23D17BDD4AC0E1FA27422B09BA9 /* UITraitCollection+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITraitCollection+QMUI.m"; path = "QMUIKit/UIKitExtensions/UITraitCollection+QMUI.m"; sourceTree = "<group>"; };
+		04D60AC13D33197690A05C641925DDDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		0514427D341489004C7586B724D11C77 /* UINavigationController+NavigationBarTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+NavigationBarTransition.h"; path = "QMUIKit/QMUIComponents/NavigationBarTransition/UINavigationController+NavigationBarTransition.h"; sourceTree = "<group>"; };
 		05171CD66C339C83EDB0BDC025A02A0B /* QMUIThemeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIThemeManager.h; path = QMUIKit/QMUIComponents/QMUITheme/QMUIThemeManager.h; sourceTree = "<group>"; };
 		0535BB1AF20DE8577754A36411A4B64D /* QMUITestView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUITestView.m; path = QMUIKit/QMUIComponents/QMUITestView.m; sourceTree = "<group>"; };
@@ -489,7 +490,6 @@
 		1B32AA5B229E5947511C8BC2C0E05D59 /* QMUILogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUILogger.m; path = QMUIKit/QMUIComponents/QMUILog/QMUILogger.m; sourceTree = "<group>"; };
 		1DF9E353A2DF25ABCD2D2CA9B4D7A499 /* UIMenuController+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIMenuController+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIMenuController+QMUI.h"; sourceTree = "<group>"; };
 		1F5CF70D5FDC6CD3DFCE3D6E829A7F64 /* UIButton+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIButton+QMUI.m"; sourceTree = "<group>"; };
-		20A7DACB743F2A39BC0D9C0E317842D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		210C1D70CCA27E21678BCE48480994A7 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
 		22322FD06CFFEDED165B33B6703D1A46 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
 		22AE575E6C7E61165501020BB248C3D3 /* Pods-JigsawProduct-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JigsawProduct-umbrella.h"; sourceTree = "<group>"; };
@@ -585,7 +585,6 @@
 		5592D5FE13F405671722C1AAF2927042 /* QMUILabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUILabel.h; path = QMUIKit/QMUIComponents/QMUILabel.h; sourceTree = "<group>"; };
 		55974D1FCFABAAE1DD4117C35B9BD332 /* QMUISlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUISlider.m; path = QMUIKit/QMUIComponents/QMUISlider.m; sourceTree = "<group>"; };
 		56A7E594D78DD5730657505C3F4EB12A /* QMUICollectionViewPagingLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUICollectionViewPagingLayout.m; path = QMUIKit/QMUIComponents/QMUICollectionViewPagingLayout.m; sourceTree = "<group>"; };
-		56DE6DFF52489DACAF66A82BFD0FE2CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		56FEC43826180D1E233209FE8CB2E177 /* UIView+QMUIBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+QMUIBadge.m"; path = "QMUIKit/QMUIComponents/QMUIBadge/UIView+QMUIBadge.m"; sourceTree = "<group>"; };
 		57224370B266DEC4E313D37F451865FA /* SnapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.release.xcconfig; sourceTree = "<group>"; };
 		57FF8D00A1B44351052B30ACBB08DEE7 /* UIView+QMUIBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+QMUIBadge.h"; path = "QMUIKit/QMUIComponents/QMUIBadge/UIView+QMUIBadge.h"; sourceTree = "<group>"; };
@@ -640,9 +639,9 @@
 		73E9E8CF170438FD6DB051AB196679C9 /* QMUINavigationBarScrollingAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUINavigationBarScrollingAnimator.m; path = QMUIKit/QMUIComponents/QMUIScrollAnimator/QMUINavigationBarScrollingAnimator.m; sourceTree = "<group>"; };
 		7506F76AF41336EA27BD0B8A9335B9C0 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
 		75ED22EBBFFBF89E3D7083F0DB886BE0 /* UITableView+QMUICellHeightKeyCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+QMUICellHeightKeyCache.m"; path = "QMUIKit/QMUIComponents/QMUICellHeightKeyCache/UITableView+QMUICellHeightKeyCache.m"; sourceTree = "<group>"; };
-		762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		78C89155CC243387F47761FBAB368908 /* UIBarItem+QMUIBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarItem+QMUIBadge.h"; path = "QMUIKit/QMUIComponents/QMUIBadge/UIBarItem+QMUIBadge.h"; sourceTree = "<group>"; };
 		799A12308EB602DACE60EBC58BA1113B /* QMUITabBarViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUITabBarViewController.h; path = QMUIKit/QMUIMainFrame/QMUITabBarViewController.h; sourceTree = "<group>"; };
+		79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7A30148278C123A623B73CB53173E00B /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
 		7ADD56D0227D8EA3F24D93ADF7B977DD /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
 		7AFEBB755D360394DF6B9D8170956F42 /* QMUIToastAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIToastAnimator.h; path = QMUIKit/QMUIComponents/ToastView/QMUIToastAnimator.h; sourceTree = "<group>"; };
@@ -664,6 +663,7 @@
 		80733FDDDDAADB0C51F74C2F4218569D /* QMUIImagePreviewView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIImagePreviewView.h; path = QMUIKit/QMUIComponents/QMUIImagePreviewView/QMUIImagePreviewView.h; sourceTree = "<group>"; };
 		82B511436E1280B23C45B9651E5FFEAE /* QMUIPopupMenuItemProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIPopupMenuItemProtocol.h; path = QMUIKit/QMUIComponents/QMUIPopupMenuView/QMUIPopupMenuItemProtocol.h; sourceTree = "<group>"; };
 		83CF96A26BF4C1942284D86850F45508 /* QMUILogNameManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUILogNameManager.m; path = QMUIKit/QMUIComponents/QMUILog/QMUILogNameManager.m; sourceTree = "<group>"; };
+		840FA0B75AF62912A30DDC66B647ED98 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		8458F4B63EBFE9816C7F470911D6D6EF /* Pods-JigsawProduct-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JigsawProduct-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8596B7A0C5A3E188061E9EDDAB573FCE /* QMUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QMUIKit.framework; path = QMUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		868FB0472F3327487F2069ECF2167BAF /* UIColor+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIColor+QMUI.h"; sourceTree = "<group>"; };
@@ -709,6 +709,7 @@
 		A09FE8B9F8519E1E8434CB9B6F8A20E7 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
 		A1009BF3F6401CFA3840CBAB2DC6C883 /* QMUIStaticTableViewCellData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIStaticTableViewCellData.m; path = QMUIKit/QMUIComponents/StaticTableView/QMUIStaticTableViewCellData.m; sourceTree = "<group>"; };
 		A3E675951628BB3AAD01D8438BCB660E /* Toast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-prefix.pch"; sourceTree = "<group>"; };
+		A42DBD2F42D55606EEBA514009498B87 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		A4FD8154FA07278CCF88636114E7C957 /* QMUIDisplayLinkAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIDisplayLinkAnimation.m; path = QMUIKit/QMUIComponents/QMUIAnimation/QMUIDisplayLinkAnimation.m; sourceTree = "<group>"; };
 		A5D5D70E88485B8DD1013AF6D8B629E9 /* QMUIWindowSizeMonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIWindowSizeMonitor.m; path = QMUIKit/QMUIComponents/QMUIWindowSizeMonitor.m; sourceTree = "<group>"; };
 		A6731FC1BE2548F435B782E549BCBC9D /* QMUIThemeManagerCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIThemeManagerCenter.m; path = QMUIKit/QMUIComponents/QMUITheme/QMUIThemeManagerCenter.m; sourceTree = "<group>"; };
@@ -734,7 +735,6 @@
 		B630B25228931F5828099403BECF690E /* UICollectionView+QMUICellSizeKeyCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+QMUICellSizeKeyCache.h"; path = "QMUIKit/QMUIComponents/QMUICellSizeKeyCache/UICollectionView+QMUICellSizeKeyCache.h"; sourceTree = "<group>"; };
 		B7CC489EA86021C067B9410B17E2AAAB /* QMUIFloatLayoutView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIFloatLayoutView.h; path = QMUIKit/QMUIComponents/QMUIFloatLayoutView.h; sourceTree = "<group>"; };
 		B88E109C5583A18CDE23A8859E97F105 /* QMUICellHeightKeyCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUICellHeightKeyCache.m; path = QMUIKit/QMUIComponents/QMUICellHeightKeyCache/QMUICellHeightKeyCache.m; sourceTree = "<group>"; };
-		B9B86528815F4C81E70D4F6522BB7687 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		BA061C0CF58A4DE11DB6CAAD21E75F46 /* UIImage+QMUITheme.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+QMUITheme.m"; path = "QMUIKit/QMUIComponents/QMUITheme/UIImage+QMUITheme.m"; sourceTree = "<group>"; };
 		BAB2B21E43B654E704CF51A9284557EE /* QMUIImagePreviewViewTransitionAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIImagePreviewViewTransitionAnimator.m; path = QMUIKit/QMUIComponents/QMUIImagePreviewView/QMUIImagePreviewViewTransitionAnimator.m; sourceTree = "<group>"; };
 		BC9C34CA9A68032A9E120F51511054B9 /* QMUIImagePickerHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIImagePickerHelper.h; path = QMUIKit/QMUIComponents/ImagePickerLibrary/QMUIImagePickerHelper.h; sourceTree = "<group>"; };
@@ -848,7 +848,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04543980C4A7CE442330B0F1BC4A9A54 /* Foundation.framework in Frameworks */,
+				7813A09B8F9242BBF63900D45EF15054 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -856,8 +856,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95ACABC71585D657249CC92BA7731A8F /* Foundation.framework in Frameworks */,
-				C06D290B9216533843023A0BF93F5927 /* QuartzCore.framework in Frameworks */,
+				753C8C42CEFBED94E1F1E752955F0254 /* Foundation.framework in Frameworks */,
+				E30AFF09BE355906C38B27B0CD35F806 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -865,9 +865,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A80A89EC35E3021D2B10ECE11B7EF2B /* CoreGraphics.framework in Frameworks */,
-				CD12BBCA326FF0241B74FA40EA5ED6DC /* Foundation.framework in Frameworks */,
-				228A55B9F543F08E7251BDFF9027E8C1 /* UIKit.framework in Frameworks */,
+				E9F091F3E1C1665F9584251BED24715F /* CoreGraphics.framework in Frameworks */,
+				0D3C2D5BC65C9C3346436B06BEFB3BF9 /* Foundation.framework in Frameworks */,
+				98DA0541CDA1E06985C7F335C03E27E6 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -875,7 +875,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D80A468C67E3444B286B4EC5E4466484 /* Foundation.framework in Frameworks */,
+				DB5A70D2BA1D8EF4EF859B1A6ABA1FB4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -883,8 +883,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4914107FF5A197B9D0BC6D1C089E33D /* Foundation.framework in Frameworks */,
-				99456829035D2883017E8EBCDB82C231 /* QuartzCore.framework in Frameworks */,
+				7F52BD0341E46A6053B15014557ACB6A /* Foundation.framework in Frameworks */,
+				E28C2A4D11D0E714F957E6AEF7F92B9F /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -892,7 +892,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF232C48A635833F9D50D5E204248D31 /* Foundation.framework in Frameworks */,
+				1911404C8205D5131FA46E0AD42CD3DA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1151,17 +1151,6 @@
 			);
 			name = "Pods-JigsawProduct";
 			path = "Target Support Files/Pods-JigsawProduct";
-			sourceTree = "<group>";
-		};
-		216D11D6253026459814863746CC99A1 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				20A7DACB743F2A39BC0D9C0E317842D5 /* CoreGraphics.framework */,
-				762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */,
-				B9B86528815F4C81E70D4F6522BB7687 /* QuartzCore.framework */,
-				56DE6DFF52489DACAF66A82BFD0FE2CA /* UIKit.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		23F5E342AF1A9518D56112E2A1D60E55 /* QMUICellHeightKeyCache */ = {
@@ -1730,7 +1719,7 @@
 		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				216D11D6253026459814863746CC99A1 /* iOS */,
+				F9D206BABE81E6BF0B9B23880B238CC7 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1958,6 +1947,17 @@
 				19CD6403EA43287F57E4425E80A9D56A /* QMUITextView.m */,
 			);
 			name = QMUITextView;
+			sourceTree = "<group>";
+		};
+		F9D206BABE81E6BF0B9B23880B238CC7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				840FA0B75AF62912A30DDC66B647ED98 /* CoreGraphics.framework */,
+				79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */,
+				A42DBD2F42D55606EEBA514009498B87 /* QuartzCore.framework */,
+				04D60AC13D33197690A05C641925DDDA /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		FC19552BFDA036212448A16D96B24A7C /* QMUIMultipleDelegates */ = {
@@ -2711,28 +2711,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		06DCA4262202B30A94D418F689C283CB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D9E4505CE0E9E3A6504B32D2EC3895A /* QMUIKit.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QMUIKit";
-				IBSC_MODULE = QMUIKit;
-				INFOPLIST_FILE = "Target Support Files/QMUIKit/ResourceBundle-QMUIResources-QMUIKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = QMUIResources;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		17D39D711BFE55BA0088E4F08C9A1F73 /* Release */ = {
+		03E76E2FE0A9366114F81640AA5875EA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EA944514E6E0A26CD7DB7126806D099C /* Toast-Swift.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -2764,11 +2746,203 @@
 			};
 			name = Release;
 		};
-		1CBFEFD562EB15961EC30E8B32CBA455 /* Debug */ = {
+		2523392A09D6E826DD64976C0C445393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D56260950A1C004FAA8279E44D6785EE /* SVProgressHUD.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		57ACD7FC71681CC7F6DB05D5409D38C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6F1142744F63FB33D83FFAD097D8B06 /* Pods-JigsawProduct.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JigsawProduct/Pods-JigsawProduct-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JigsawProduct/Pods-JigsawProduct.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		57EC5710219A5BBCCB008AF3FAEF7A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F736F72A43FED71ADC825C661CC9848 /* QMUIKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QMUIKit/QMUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QMUIKit/QMUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QMUIKit/QMUIKit.modulemap";
+				PRODUCT_MODULE_NAME = QMUIKit;
+				PRODUCT_NAME = QMUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5923ED3DAA4C6CD3C4A97D77F81E8487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F736F72A43FED71ADC825C661CC9848 /* QMUIKit.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QMUIKit";
+				IBSC_MODULE = QMUIKit;
+				INFOPLIST_FILE = "Target Support Files/QMUIKit/ResourceBundle-QMUIResources-QMUIKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = QMUIResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		629A6B8C2C510A66F47B4319B524ACED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF652DA581E9260CCCE73B86307B2250 /* IAPurchaseManager.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IAPurchaseManager/IAPurchaseManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IAPurchaseManager/IAPurchaseManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IAPurchaseManager/IAPurchaseManager.modulemap";
+				PRODUCT_MODULE_NAME = IAPurchaseManager;
+				PRODUCT_NAME = IAPurchaseManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		77B25FC9CEE66CA6521DBC2E6517BD97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA4F37D904835FCBE844E0C651BC2141 /* SnapKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D06A784025F8033DD359DE587B8DF28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6756BB27EC846A710B425D3EB0999762 /* SVProgressHUD.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -2799,43 +2973,7 @@
 			};
 			name = Debug;
 		};
-		3D2E33F7CC29A6E763D7B9C3F8198719 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F96567D78F6FFB3E2DA1C5F2284FCC0D /* IAPurchaseManager.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/IAPurchaseManager/IAPurchaseManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IAPurchaseManager/IAPurchaseManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/IAPurchaseManager/IAPurchaseManager.modulemap";
-				PRODUCT_MODULE_NAME = IAPurchaseManager;
-				PRODUCT_NAME = IAPurchaseManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6ACE01E101CD05C2D9274B28BE586706 /* Release */ = {
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -2862,6 +3000,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -2896,29 +3035,46 @@
 			};
 			name = Release;
 		};
-		72E06EE6D89EB8FDAEBA445E0E464D68 /* Debug */ = {
+		8CB86A89E34C740D46E5A8A169252A0D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F736F72A43FED71ADC825C661CC9848 /* QMUIKit.debug.xcconfig */;
+			baseConfigurationReference = F96567D78F6FFB3E2DA1C5F2284FCC0D /* IAPurchaseManager.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QMUIKit";
-				IBSC_MODULE = QMUIKit;
-				INFOPLIST_FILE = "Target Support Files/QMUIKit/ResourceBundle-QMUIResources-QMUIKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = QMUIResources;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IAPurchaseManager/IAPurchaseManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IAPurchaseManager/IAPurchaseManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IAPurchaseManager/IAPurchaseManager.modulemap";
+				PRODUCT_MODULE_NAME = IAPurchaseManager;
+				PRODUCT_NAME = IAPurchaseManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		73B201A0641E8BDF892BA0B27E0AF833 /* Release */ = {
+		8E403E361CD6D3F32A530333F7435318 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 57224370B266DEC4E313D37F451865FA /* SnapKit.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -2950,124 +3106,11 @@
 			};
 			name = Release;
 		};
-		7AF8186F49F251A9BE6990FD98B02E87 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9457EF4C4774CC5D9CF88C4D899916AC /* Pods-JigsawProduct.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JigsawProduct/Pods-JigsawProduct-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JigsawProduct/Pods-JigsawProduct.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		800B7806BC9BE546AAB18FAB2C1A3837 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6F1142744F63FB33D83FFAD097D8B06 /* Pods-JigsawProduct.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JigsawProduct/Pods-JigsawProduct-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JigsawProduct/Pods-JigsawProduct.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		87AEE5BC238645494F7F94F67F2BED7A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B54678EE7E2E409BAF10949D6730327 /* Toast-Swift.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Toast-Swift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
-				PRODUCT_MODULE_NAME = Toast_Swift;
-				PRODUCT_NAME = Toast_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		89DF841FAB3E37B73035C915A63D2E9A /* Release */ = {
+		BB8374A02CE64EB0CCD79B84D7D2040E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7D9E4505CE0E9E3A6504B32D2EC3895A /* QMUIKit.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -3099,7 +3142,94 @@
 			};
 			name = Release;
 		};
-		B1B259C5FB7465EF9C71163827046E70 /* Debug */ = {
+		BC54CBE04B6491A104C3320BED4C38CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9457EF4C4774CC5D9CF88C4D899916AC /* Pods-JigsawProduct.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JigsawProduct/Pods-JigsawProduct-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JigsawProduct/Pods-JigsawProduct.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C646B80E4D8A9B6FB6B471288AD9746F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B54678EE7E2E409BAF10949D6730327 /* Toast-Swift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Toast-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				PRODUCT_MODULE_NAME = Toast_Swift;
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D027BB047399A8F66DFE197240D18F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D9E4505CE0E9E3A6504B32D2EC3895A /* QMUIKit.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QMUIKit";
+				IBSC_MODULE = QMUIKit;
+				INFOPLIST_FILE = "Target Support Files/QMUIKit/ResourceBundle-QMUIResources-QMUIKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = QMUIResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -3126,6 +3256,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -3164,157 +3295,14 @@
 			};
 			name = Debug;
 		};
-		CB3FE2DDA1E8A0BD44E25D0CF620B4BC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F736F72A43FED71ADC825C661CC9848 /* QMUIKit.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QMUIKit/QMUIKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QMUIKit/QMUIKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/QMUIKit/QMUIKit.modulemap";
-				PRODUCT_MODULE_NAME = QMUIKit;
-				PRODUCT_NAME = QMUIKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DB8DF0C1FC2A181B0C5BCF1E0BAAC682 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D56260950A1C004FAA8279E44D6785EE /* SVProgressHUD.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
-				PRODUCT_MODULE_NAME = SVProgressHUD;
-				PRODUCT_NAME = SVProgressHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F93AF49C1CAF2486F9DC6AE9F85C0739 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA4F37D904835FCBE844E0C651BC2141 /* SnapKit.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
-				PRODUCT_MODULE_NAME = SnapKit;
-				PRODUCT_NAME = SnapKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FC1EF3C82432630B51A728EB2C2502F5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF652DA581E9260CCCE73B86307B2250 /* IAPurchaseManager.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/IAPurchaseManager/IAPurchaseManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IAPurchaseManager/IAPurchaseManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/IAPurchaseManager/IAPurchaseManager.modulemap";
-				PRODUCT_MODULE_NAME = IAPurchaseManager;
-				PRODUCT_NAME = IAPurchaseManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		02BA91450469E163E5EE900536DCA6BF /* Build configuration list for PBXNativeTarget "QMUIKit-QMUIResources" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				72E06EE6D89EB8FDAEBA445E0E464D68 /* Debug */,
-				06DCA4262202B30A94D418F689C283CB /* Release */,
+				5923ED3DAA4C6CD3C4A97D77F81E8487 /* Debug */,
+				D027BB047399A8F66DFE197240D18F3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3322,8 +3310,8 @@
 		29CD0B6350FAFC314B3AAA18BF310FD9 /* Build configuration list for PBXNativeTarget "Pods-JigsawProduct" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7AF8186F49F251A9BE6990FD98B02E87 /* Debug */,
-				800B7806BC9BE546AAB18FAB2C1A3837 /* Release */,
+				BC54CBE04B6491A104C3320BED4C38CE /* Debug */,
+				57ACD7FC71681CC7F6DB05D5409D38C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3331,8 +3319,8 @@
 		36876DEAC4D418C79F8F65D6D88FCD1C /* Build configuration list for PBXNativeTarget "QMUIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB3FE2DDA1E8A0BD44E25D0CF620B4BC /* Debug */,
-				89DF841FAB3E37B73035C915A63D2E9A /* Release */,
+				57EC5710219A5BBCCB008AF3FAEF7A49 /* Debug */,
+				BB8374A02CE64EB0CCD79B84D7D2040E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3340,8 +3328,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B1B259C5FB7465EF9C71163827046E70 /* Debug */,
-				6ACE01E101CD05C2D9274B28BE586706 /* Release */,
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3349,8 +3337,8 @@
 		50AD0F02E3A6A24F15A02EE8D4DFBF07 /* Build configuration list for PBXNativeTarget "IAPurchaseManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC1EF3C82432630B51A728EB2C2502F5 /* Debug */,
-				3D2E33F7CC29A6E763D7B9C3F8198719 /* Release */,
+				629A6B8C2C510A66F47B4319B524ACED /* Debug */,
+				8CB86A89E34C740D46E5A8A169252A0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3358,8 +3346,8 @@
 		7F8CE4DC18DBEA01587212F09727DB3D /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F93AF49C1CAF2486F9DC6AE9F85C0739 /* Debug */,
-				73B201A0641E8BDF892BA0B27E0AF833 /* Release */,
+				77B25FC9CEE66CA6521DBC2E6517BD97 /* Debug */,
+				8E403E361CD6D3F32A530333F7435318 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3367,8 +3355,8 @@
 		B8C401847A53B4C2810311A8CBD715AD /* Build configuration list for PBXNativeTarget "Toast-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				87AEE5BC238645494F7F94F67F2BED7A /* Debug */,
-				17D39D711BFE55BA0088E4F08C9A1F73 /* Release */,
+				C646B80E4D8A9B6FB6B471288AD9746F /* Debug */,
+				03E76E2FE0A9366114F81640AA5875EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3376,8 +3364,8 @@
 		E76C288BA44757915CF3700D8A326EB7 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1CBFEFD562EB15961EC30E8B32CBA455 /* Debug */,
-				DB8DF0C1FC2A181B0C5BCF1E0BAAC682 /* Release */,
+				7D06A784025F8033DD359DE587B8DF28 /* Debug */,
+				2523392A09D6E826DD64976C0C445393 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
